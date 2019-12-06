@@ -43,7 +43,7 @@ const flowInfo2=[
             "BDBL-PSS32-ROADM-26/260SCX2-5-4-C1/dsr=1"
         ],
         "zTP":[
-            "ctp_2"
+            "BDBL-PSS32-ROADM-26/260SCX2-5-4-L1/ODU4=1"
         ]
     },
     {
@@ -84,7 +84,7 @@ const flowInfo2=[
         "type":"XC",
         "id":"xc_2",
         "userlabel":"xxx",
-        "dir":"UNI",
+        "dir":"BI",
         "aTP":[
             "BDBL-PSS32-ROADM-26/OPSA-5-3-SIG/frequency=1"
         ],
@@ -152,7 +152,106 @@ const flowInfo2=[
                 "neUserlabel":"BDBL-PSS32-ROADM-26",
                 "cardId":"BDBL-PSS32-ROADM-26/SFD44-26-1",
                 "cardUserlabel":"SFD44-26-1"
-            }
+            },
+			{
+				"type":"yNode",
+				"yNode0":[
+					{
+						"type":"CONNECTION",
+						"id":"conn_3",
+						"userlabel":"xxx",
+						"dir":"UNI",
+						"aTP":[
+							"BDBL-PSS32-ROADM-26/SFD44-26-1-OMD"
+						],
+						"zTP":[
+							"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-ADDIN2"
+						]
+					},
+					{
+						"type":"PTP",
+						"id":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-ADDIN2",
+						"userlabel":"WR8-88AF-1-4-ADDIN2",
+						"ptpId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-ADDIN2",
+						"ptpUserlabel":"WR8-88AF-1-4-ADDIN2",
+						"neId":"BDBL-PSS32-ROADM-26",
+						"neUserlabel":"BDBL-PSS32-ROADM-26",
+						"cardId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4",
+						"cardUserlabel":"WR8-88AF-1-4"
+					}
+				],
+				"yNode1":[
+					{
+						"type":"CONNECTION",
+						"id":"conn_3",
+						"userlabel":"xxx",
+						"dir":"UNI",
+						"aTP":[
+							"BDBL-PSS32-ROADM-26/ITL-25-1-OUT"
+						],
+						"zTP":[
+							"BDBL-PSS32-ROADM-26/SFD44-26-1-OMD"
+						]
+					},
+					{
+						"type":"PTP",
+						"id":"BDBL-PSS32-ROADM-26/ITL-25-1-OUT",
+						"userlabel":"ITL-25-1-OUT",
+						"ptpId":"BDBL-PSS32-ROADM-26/ITL-25-1-OUT",
+						"ptpUserlabel":"ITL-25-1-OUT",
+						"neId":"BDBL-PSS32-ROADM-26",
+						"neUserlabel":"BDBL-PSS32-ROADM-26",
+						"cardId":"BDBL-PSS32-ROADM-26/ITL-25-1",
+						"cardUserlabel":"ITL-25-1"
+					},
+					{
+						"type":"XC",
+						"id":"xc_1",
+						"userlabel":"xxx",
+						"dir":"UNI",
+						"aTP":[
+							"BDBL-PSS32-ROADM-26/ITL-25-1-SIGIN"
+						],
+						"zTP":[
+							"BDBL-PSS32-ROADM-26/ITL-25-1-OUT"
+						]
+					},
+					{
+						"type":"PTP",
+						"id":"BDBL-PSS32-ROADM-26/ITL-25-1-SIGIN",
+						"userlabel":"ITL-25-1-SIGIN",
+						"ptpId":"BDBL-PSS32-ROADM-26/ITL-25-1-SIGIN",
+						"ptpUserlabel":"ITL-25-1-SIGIN",
+						"neId":"BDBL-PSS32-ROADM-26",
+						"neUserlabel":"BDBL-PSS32-ROADM-26",
+						"cardId":"BDBL-PSS32-ROADM-26/ITL-25-1",
+						"cardUserlabel":"ITL-25-1"
+					},
+					{
+						"type":"CONNECTION",
+						"id":"conn_3",
+						"userlabel":"xxx",
+						"dir":"UNI",
+						"aTP":[
+							"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-DROPOUT"
+						],
+						"zTP":[
+							"BDBL-PSS32-ROADM-26/ITL-25-1-SIGIN"
+						]
+					},
+					{
+						"type":"PTP",
+						"id":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-DROPOUT",
+						"userlabel":"WR8-88AF-1-4-DROPOUT",
+						"ptpId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-DROPOUT",
+						"ptpUserlabel":"WR8-88AF-1-4-DROPOUT",
+						"neId":"BDBL-PSS32-ROADM-26",
+						"neUserlabel":"BDBL-PSS32-ROADM-26",
+						"cardId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4",
+						"cardUserlabel":"WR8-88AF-1-4"
+					}
+				]
+			}
         ],
 		"yNode1":[
             {
