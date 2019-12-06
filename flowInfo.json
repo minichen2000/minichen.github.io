@@ -1,0 +1,202 @@
+[
+	{
+  	type: 'CTP',
+    id: 'ctp_1',
+    userlabel: 'C1/dsr=1',
+    ptpId: 'ptp_1',
+    ptpUserlabel: 'C1',
+    neId: 'ne_1',
+    neUserlabel: 'NE_1',
+    cardId: 'card_1',
+    cardUserlabel: 'CARD_1'
+  },
+  {
+  	type: 'XC',
+    id: 'xc_1',
+    userlabel: 'xxx',
+    dir: 'BI',
+    aTP:['ctp_1'],
+    zTP:['ctp_2']
+  },
+  {
+  	type: 'CTP',
+    id: 'ctp_2',
+    userlabel: 'L1/odu2=1',
+    ptpId: 'ptp_2',
+    ptpUserlabel: 'L1',
+    neId: 'ne_1',
+    neUserlabel: 'NE_1',
+    cardId: 'card_1',
+    cardUserlabel: 'CARD_1'
+  },
+  {
+  	type: 'CONNECTION',
+    id: 'conn_1',
+    userlabel: 'xxx',
+    dir: 'BI',
+    aTP:['ptp_2'],
+    zTP:['ptp_3']
+  },
+  {
+  	type: 'CTP',
+    id: 'ctp_3',
+    userlabel: 'SFD-9600/frequency=1',
+    ptpId: 'ptp_3',
+    ptpUserlabel: 'SFD-9600',
+    neId: 'ne_2',
+    neUserlabel: 'NE_2',
+    cardId: 'card_2',
+    cardUserlabel: 'CARD_2'
+  },
+  {
+  	type: 'XC',
+    id: 'xc_2',
+    userlabel: 'xxx',
+    dir: 'UNI',
+    aTP:['ctp_3'],
+    zTP:['ctp_4']
+  },
+  {
+  	type: 'CTP',
+    id: 'ctp_4',
+    userlabel: 'SFD-OMD/9600=1',
+    ptpId: 'ptp_4',
+    ptpUserlabel: 'SFD-OMD',
+    neId: 'ne_2',
+    neUserlabel: 'NE_2',
+    cardId: 'card_2',
+    cardUserlabel: 'CARD_2'
+  },
+  {
+  	type: 'CONNECTION',
+    id: 'conn_2',
+    userlabel: 'xxx',
+    dir: 'UNI',
+    aTP:['ptp_4'],
+    zTP:['ptp_5']
+  },
+  {
+  	type: 'CTP',
+    id: 'ctp_5',
+    userlabel: 'OPSA-1-SIG/oms=1',
+    ptpId: 'ptp_5',
+    ptpUserlabel: 'OPSA-1-SIG',
+    neId: 'ne_2',
+    neUserlabel: 'NE_2',
+    cardId: 'card_3',
+    cardUserlabel: 'CARD_3'
+  },
+  {
+  	type: 'XC',
+    id: 'xc_3',
+    userlabel: 'xxx',
+    dir: 'UNI',
+    aTP:['ctp_5'],
+    zTP:['ctp_6', 'ctp_7']
+  },
+  {
+  	type: 'yNode',
+    'ctp_6':[
+    	{
+        type: 'CTP',
+        id: 'ctp_6',
+        userlabel: 'OPSA-1-A/oms=1',
+        ptpId: 'ptp_6',
+        ptpUserlabel: 'OPSA-1-A',
+        neId: 'ne_2',
+        neUserlabel: 'NE_2',
+        cardId: 'card_3',
+        cardUserlabel: 'CARD_3'
+      },
+      {
+        type: 'CONNECTION',
+        id: 'conn_3',
+        userlabel: 'xxx',
+        dir: 'BI',
+        aTP:['ptp_6'],
+        zTP:['ptp_61']
+      },
+      {
+        type: 'PTP',
+        id: 'ptp_61',
+        userlabel: 'AHPHG-1-SIG',
+        ptpId: 'ptp_61',
+        ptpUserlabel: 'AHPHG-1-SIG',
+        neId: 'ne_2',
+        neUserlabel: 'NE_2',
+        cardId: 'card_4',
+        cardUserlabel: 'CARD_4'
+      },
+      {
+        type: 'CONNECTION',
+        id: 'conn_31',
+        userlabel: 'xxx',
+        dir: 'BI',
+        aTP:['ptp_61'],
+        zTP:['ptp_62']
+      },
+      {
+        type: 'CTP',
+        id: 'ctp_62',
+        userlabel: 'AHPHG-X-SIG/oms=1',
+        ptpId: 'ptp_62',
+        ptpUserlabel: 'AHPHG-X-SIG',
+        neId: 'ne_2',
+        neUserlabel: 'NE_2',
+        cardId: 'card_4',
+        cardUserlabel: 'CARD_4'
+      }
+    ],
+    'ctp_7':[
+    	{
+        type: 'CTP',
+        id: 'ctp_7',
+        userlabel: 'OPSA-1-B/oms=1',
+        ptpId: 'ptp_7',
+        ptpUserlabel: 'OPSA-1-B',
+        neId: 'ne_2',
+        neUserlabel: 'NE_2',
+        cardId: 'card_3',
+        cardUserlabel: 'CARD_3'
+      },
+      {
+        type: 'CONNECTION',
+        id: 'conn_4',
+        userlabel: 'xxx',
+        dir: 'UNI',
+        aTP:['ptp_7'],
+        zTP:['ptp_71']
+      },
+      {
+        type: 'CTP',
+        id: 'ctp_71',
+        userlabel: 'AHPHG-2-SIG/oms=1',
+        ptpId: 'ptp_71',
+        ptpUserlabel: 'AHPHG-2-SIG',
+        neId: 'ne_2',
+        neUserlabel: 'NE_2',
+        cardId: 'card_5',
+        cardUserlabel: 'CARD_5'
+      }
+    ]
+  },
+  {
+  	type: 'XC',
+    id: 'xc_99',
+    userlabel: 'xxx',
+    dir: 'BI',
+    aTP:['ctp_9'],
+    zTP:['ctp_62', 'ctp_71']
+  },
+  {
+        type: 'CTP',
+        id: 'ctp_9',
+        userlabel: 'AHPHG-11-LINE/oms=1',
+        ptpId: 'ptp_91',
+        ptpUserlabel: 'AHPHG-11-LINE',
+        neId: 'ne_2',
+        neUserlabel: 'NE_2',
+        cardId: 'card_5',
+        cardUserlabel: 'CARD_5'
+   }
+]
