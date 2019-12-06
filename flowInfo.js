@@ -278,17 +278,6 @@ const flowInfo2=[
 				"type":"yNode",
 				"yNode0":[
 					{
-						"type":"PTP",
-						"id":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-ADDIN2",
-						"userlabel":"WR8-88AF-1-4-ADDIN2",
-						"ptpId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-ADDIN2",
-						"ptpUserlabel":"WR8-88AF-1-4-ADDIN2",
-						"neId":"BDBL-PSS32-ROADM-26",
-						"neUserlabel":"BDBL-PSS32-ROADM-26",
-						"cardId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4",
-						"cardUserlabel":"WR8-88AF-1-4"
-					},
-					{
 						"type":"XC",
 						"id":"xc_1",
 						"userlabel":"xxx",
@@ -299,31 +288,9 @@ const flowInfo2=[
 						"zTP":[
 							"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-SIG"
 						]
-					},
-					{
-						"type":"PTP",
-						"id":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-SIG",
-						"userlabel":"WR8-88AF-1-4-SIG",
-						"ptpId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-SIG",
-						"ptpUserlabel":"WR8-88AF-1-4-SIG",
-						"neId":"BDBL-PSS32-ROADM-26",
-						"neUserlabel":"BDBL-PSS32-ROADM-26",
-						"cardId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4",
-						"cardUserlabel":"WR8-88AF-1-4"
 					}
 				],
 				"yNode1":[
-					{
-						"type":"PTP",
-						"id":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-DROPOUT",
-						"userlabel":"WR8-88AF-1-4-DROPOUT",
-						"ptpId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-DROPOUT",
-						"ptpUserlabel":"WR8-88AF-1-4-DROPOUT",
-						"neId":"BDBL-PSS32-ROADM-26",
-						"neUserlabel":"BDBL-PSS32-ROADM-26",
-						"cardId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4",
-						"cardUserlabel":"WR8-88AF-1-4"
-					},
 					{
 						"type":"XC",
 						"id":"xc_1",
@@ -335,17 +302,6 @@ const flowInfo2=[
 						"zTP":[
 							"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-DROPOUT"
 						]
-					},
-					{
-						"type":"PTP",
-						"id":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-SIG",
-						"userlabel":"WR8-88AF-1-4-SIG",
-						"ptpId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4-SIG",
-						"ptpUserlabel":"WR8-88AF-1-4-SIG",
-						"neId":"BDBL-PSS32-ROADM-26",
-						"neUserlabel":"BDBL-PSS32-ROADM-26",
-						"cardId":"BDBL-PSS32-ROADM-26/WR8-88AF-1-4",
-						"cardUserlabel":"WR8-88AF-1-4"
 					}
 				]
 			},
