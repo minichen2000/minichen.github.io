@@ -157,17 +157,6 @@ const flowInfo2=[
 				"type":"yNode",
 				"yNode0":[
 					{
-						"type":"CTP",
-						"id":"BDBL-PSS32-ROADM-26/SFD44-26-1-OMD/frequency=9475",
-						"userlabel":"SFD44-26-1-OMD/frequency=9475",
-						"ptpId":"BDBL-PSS32-ROADM-26/SFD44-26-1-OMD",
-						"ptpUserlabel":"SFD44-26-1-OMD",
-						"neId":"BDBL-PSS32-ROADM-26",
-						"neUserlabel":"BDBL-PSS32-ROADM-26",
-						"cardId":"BDBL-PSS32-ROADM-26/SFD44-26-1",
-						"cardUserlabel":"SFD44-26-1"
-					},
-					{
 						"type":"CONNECTION",
 						"id":"conn_3",
 						"userlabel":"xxx",
@@ -192,17 +181,6 @@ const flowInfo2=[
 					}
 				],
 				"yNode1":[
-					{
-						"type":"CTP",
-						"id":"BDBL-PSS32-ROADM-26/SFD44-26-1-OMD/frequency=9475",
-						"userlabel":"SFD44-26-1-OMD/frequency=9475",
-						"ptpId":"BDBL-PSS32-ROADM-26/SFD44-26-1-OMD",
-						"ptpUserlabel":"SFD44-26-1-OMD",
-						"neId":"BDBL-PSS32-ROADM-26",
-						"neUserlabel":"BDBL-PSS32-ROADM-26",
-						"cardId":"BDBL-PSS32-ROADM-26/SFD44-26-1",
-						"cardUserlabel":"SFD44-26-1"
-					},
 					{
 						"type":"CONNECTION",
 						"id":"conn_3",
