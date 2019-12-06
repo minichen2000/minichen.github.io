@@ -1,3 +1,25 @@
+//keys:
+const FI_type="type";
+const FI_id="id";
+const FI_userlabel="userlabel";
+const FI_ptpId="ptpId";
+const FI_ptpUserlabel="ptpUserlabel";
+const FI_neId="neId";
+const FI_neUserlabel="neUserlabel";
+const FI_cardId="cardId";
+const FI_cardUserlabel="cardUserlabel";
+const FI_dir="dir";
+const FI_aTP="aTP";
+const FI_zTP="zTP";
+//values:
+const FI_type_XC="XC";
+const FI_type_CTP="CTP";
+const FI_type_PTP="PTP";
+const FI_type_CONNECTION="CONNECTION";
+const FI_type_yNode="yNode";
+const FI_dir_BI="BI";
+const FI_dir_UNI="UNI";
+
 const flowInfo=[
     {
         "type":"CTP",
