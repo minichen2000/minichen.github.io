@@ -11,6 +11,8 @@ const FI_cardUserlabel="cardUserlabel";
 const FI_dir="dir";
 const FI_aTP="aTP";
 const FI_zTP="zTP";
+const FI_yNode0="yNode0";
+const FI_yNode1="yNode1";
 //values:
 const FI_type_XC="XC";
 const FI_type_CTP="CTP";
@@ -139,7 +141,7 @@ const flowInfo=[
     },
     {
         "type":"yNode",
-        "ctp_6":[
+        "yNode0":[
             {
                 "type":"CTP",
                 "id":"ctp_6",
@@ -198,7 +200,7 @@ const flowInfo=[
                 "cardUserlabel":"CARD_4"
             }
         ],
-        "ctp_7":[
+        "yNode1":[
             {
                 "type":"CTP",
                 "id":"ctp_7",
