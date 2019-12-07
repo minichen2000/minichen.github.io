@@ -455,7 +455,7 @@ const flowInfo3 = [
 		"elementType" : "CONNECTION",
 		"id" : "5dcba0182f801779d84b1ab6_302711040_5dcba0182f801779d84b1ab6_303694080",
 		"userlabel" : "BJM1-PSS32-ROADM-25/OPSA-18-26-SIG--BJM1-PSS32-ROADM-25/260SCX2-18-11-L1",
-		"aEndTps" : ["5dcba0182f801779d84b1ab6_303694080"],
+		"aEndTps" : ["5dcba04a2f801779d84b1ab9_84082944"],
 		"zEndTps" : ["5dcba0182f801779d84b1ab6_302711040"],
 		"protectionType" : "normal",
 		"direction" : "BI",
