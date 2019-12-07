@@ -303,8 +303,8 @@ const flowInfo3 = [
 							{
 								"elementType" : "XC",
 								"id" : "5dcba04a2f801779d84b1ab9_469828352_ITLU-28-1-OOUT;/frequency=9475.000-5dcba04a2f801779d84b1ab9_469827840_ITLU-28-1-SIGIN;/frequency=9475.000",
-								"aEndTps" : ["5dcba04a2f801779d84b1ab9_469828352_ITLU-28-1-OOUT;/frequency=9475.000"],
-								"zEndTps" : ["5dcba04a2f801779d84b1ab9_469827840_ITLU-28-1-SIGIN;/frequency=9475.000"],
+								"aEndTps" : ["5dcba04a2f801779d84b1ab9_469827840_ITLU-28-1-SIGIN;/frequency=9475.000"],
+								"zEndTps" : ["5dcba04a2f801779d84b1ab9_469828352_ITLU-28-1-OOUT;/frequency=9475.000"],
 								"protectionType" : "normal",
 								"direction" : "UNI",
 								"isSeparatedRoute" : false,
@@ -358,8 +358,8 @@ const flowInfo3 = [
 							{
 								"elementType" : "XC",
 								"id" : "5dcba04a2f801779d84b1ab9_33817344_WR8-88AF-2-4-DROPOUT;/frequency=9475.000-5dcba04a2f801779d84b1ab9_33816832_WR8-88AF-2-4-SIG;/frequency=9475.000",
-								"aEndTps" : ["5dcba04a2f801779d84b1ab9_33817344_WR8-88AF-2-4-DROPOUT;/frequency=9475.000"],
-								"zEndTps" : ["5dcba04a2f801779d84b1ab9_33816832_WR8-88AF-2-4-SIG;/frequency=9475.000"],
+								"aEndTps" : ["5dcba04a2f801779d84b1ab9_33816832_WR8-88AF-2-4-SIG;/frequency=9475.000"],
+								"zEndTps" : ["5dcba04a2f801779d84b1ab9_33817344_WR8-88AF-2-4-DROPOUT;/frequency=9475.000"],
 								"protectionType" : "normal",
 								"direction" : "UNI",
 								"isSeparatedRoute" : false,
