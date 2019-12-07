@@ -412,7 +412,7 @@ const flowInfo3 = [
 					"physicalTpId" : "5dcba0182f801779d84b1ab6_303694592",
 					"physicalTpUserLabel" : "OPSA-18-26-B",
 					"isSeparatedRoute" : false,
-					"isMergedRoute" : flase,
+					"isMergedRoute" : false,
 					"separatedRouteElements" : {},
 					"params" : {}
 				}
