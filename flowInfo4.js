@@ -18,12 +18,14 @@ const FI_SRES_main="main";
 const FI_SRES_spare="spare";
 const FI_SRES_Tx="Tx";
 const FI_SRES_Rx="Rx";
+const FI_protectionType="protectionType";
 //values:
 const FI_type_XC="XC";
 const FI_type_TP="TP";
 const FI_type_CONNECTION="CONNECTION";
 const FI_dir_BI="BI";
 const FI_dir_UNI="UNI";
+const FI_protectionType_NORMAL="normal";
 
 
 
