@@ -25,7 +25,7 @@ const FI_type_TP="TP";
 const FI_type_CONNECTION="TL";
 const FI_dir_BI="BI";
 const FI_dir_UNI="UNI";
-const FI_protectionType_NORMAL="NORMAL";
+const FI_protectionType_NORMAL="SIMPLE";
 
 
 const flowInfo5 = [
