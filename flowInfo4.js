@@ -29,7 +29,7 @@ const FI_protectionType_NORMAL="normal";
 
 
 
-const flowInfo3 = [
+const flowInfo4 = [
 	{
 		"elementType" : "TP",
 		"neId" : "5dcba04a2f801779d84b1ab9",
