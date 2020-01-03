@@ -28,7 +28,7 @@ const FI_dir_UNI="UNI";
 const FI_protectionType_NORMAL="SIMPLE";
 
 
-const flowInfo5 = [
+const flowInfo6 = [
     {
         "neId": "5e0dba24c0348a5d5c29c612",
         "userLabel": "260SCX2-2-2-L1;/frequency=/tunable-number=1",
