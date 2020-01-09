@@ -1,3 +1,732 @@
+const flowInfo1 = [
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": "11QPA4-1-8-C4;/odu2=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812a2c245544f4eac0cd4_17303552",
+        "ptpUserLabel": "11QPA4-1-8-C4",
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "TP",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.8",
+        "tpType": "CTP",
+        "layerRate": "ODU2",
+        "equipmentUserLabel": "11QPA4-1-8",
+        "id": "5c4812a2c245544f4eac0cd4_17303552_11QPA4-1-8-C4;/odu2=1"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17303552_11QPA4-1-8-C4;/odu2=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "XC",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.8",
+        "zEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17302528_11QPA4-1-8-L4;/otu2=1/odu2=1"
+        ],
+        "equipmentUserLabel": "11QPA4-1-8",
+        "id": "5c4812a2c245544f4eac0cd4_17303552_11QPA4-1-8-C4;/odu2=1-5c4812a2c245544f4eac0cd4_17302528_11QPA4-1-8-L4;/otu2=1/odu2=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": "11QPA4-1-8-L4;/otu2=1/odu2=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812a2c245544f4eac0cd4_17302528",
+        "ptpUserLabel": "11QPA4-1-8-L4",
+        "isSeparatedRoute": true,
+        "neUserLabel": "201",
+        "type": "TP",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.8",
+        "separatedRouteElements": {
+            "Tx": [
+                {
+                    "userLabel": "201/11QPA4-1-8-L4--201/11QPA4-1-8-VA4",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5c4812a2c245544f4eac0cd4_17302528"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5c4812a2c245544f4eac0cd4_17302528_5c4812a2c245544f4eac0cd4_17304576",
+                    "type": "TL",
+                    "direction": "UNI",
+                    "zEndNodes": [
+                        "5c4812a2c245544f4eac0cd4_17304576"
+                    ]
+                },
+                {
+                    "neId": "5c4812a2c245544f4eac0cd4",
+                    "userLabel": "11QPA4-1-8-VA4;/frequency=/tunable-number=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5c4812a2c245544f4eac0cd4_17304576",
+                    "ptpUserLabel": "11QPA4-1-8-VA4",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "201",
+                    "type": "TP",
+                    "equipmentId": "5c4812a2c245544f4eac0cd4_1.8",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "11QPA4-1-8",
+                    "id": "5c4812a2c245544f4eac0cd4_17304576_11QPA4-1-8-VA4;/frequency=/tunable-number=1"
+                },
+                {
+                    "userLabel": "201/11QPA4-1-8-VA4--201/SFD44-25-1-9440",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5c4812a2c245544f4eac0cd4_17304576"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5c4812a2c245544f4eac0cd4_17304576_5c4812a2c245544f4eac0cd4_419500288",
+                    "type": "TL",
+                    "direction": "UNI",
+                    "zEndNodes": [
+                        "5c4812a2c245544f4eac0cd4_419500288"
+                    ]
+                }
+            ],
+            "Rx": [
+                {
+                    "userLabel": "201/SFD44-25-1-9440--201/11QPA4-1-8-L4",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5c4812a2c245544f4eac0cd4_419500288"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5c4812a2c245544f4eac0cd4_17302528_5c4812a2c245544f4eac0cd4_419500288",
+                    "type": "TL",
+                    "direction": "UNI",
+                    "zEndNodes": [
+                        "5c4812a2c245544f4eac0cd4_17302528"
+                    ]
+                }
+            ]
+        },
+        "tpType": "CTP",
+        "layerRate": "ODU2",
+        "equipmentUserLabel": "11QPA4-1-8",
+        "id": "5c4812a2c245544f4eac0cd4_17302528_11QPA4-1-8-L4;/otu2=1/odu2=1"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": "SFD44-25-1-9440;/frequency=9440.000",
+        "isMergedRoute": true,
+        "ptpId": "5c4812a2c245544f4eac0cd4_419500288",
+        "ptpUserLabel": "SFD44-25-1-9440",
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "TP",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_25.1",
+        "tpType": "CTP",
+        "layerRate": "OCH",
+        "equipmentUserLabel": "SFD44-25-1",
+        "id": "5c4812a2c245544f4eac0cd4_419500288_SFD44-25-1-9440;/frequency=9440.000"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c4812a2c245544f4eac0cd4_419500288_SFD44-25-1-9440;/frequency=9440.000"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "XC",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_25.1",
+        "zEndNodes": [
+            "5c4812a2c245544f4eac0cd4_419507456_SFD44-25-1-OMD;/frequency=9440.000"
+        ],
+        "equipmentUserLabel": "SFD44-25-1",
+        "id": "5c4812a2c245544f4eac0cd4_419500288_SFD44-25-1-9440;/frequency=9440.000-5c4812a2c245544f4eac0cd4_419507456_SFD44-25-1-OMD;/frequency=9440.000",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": "SFD44-25-1-OMD;/frequency=9440.000",
+        "isMergedRoute": null,
+        "ptpId": "5c4812a2c245544f4eac0cd4_419507456",
+        "ptpUserLabel": "SFD44-25-1-OMD",
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "TP",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_25.1",
+        "tpType": "CTP",
+        "layerRate": "OCH",
+        "equipmentUserLabel": "SFD44-25-1",
+        "id": "5c4812a2c245544f4eac0cd4_419507456_SFD44-25-1-OMD;/frequency=9440.000"
+    },
+    {
+        "userLabel": "201/AHPLG-1-5-LINE--201/SFD44-25-1-OMD",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17105920"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5c4812a2c245544f4eac0cd4_17105920_5c4812a2c245544f4eac0cd4_419507456",
+        "type": "TL",
+        "direction": "BI",
+        "zEndNodes": [
+            "5c4812a2c245544f4eac0cd4_419507456"
+        ]
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": "AHPLG-1-5-LINE;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812a2c245544f4eac0cd4_17105920",
+        "ptpUserLabel": "AHPLG-1-5-LINE",
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "TP",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.5",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-5",
+        "id": "5c4812a2c245544f4eac0cd4_17105920_AHPLG-1-5-LINE;/oms=1"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17105152_AHPLG-1-5-SIG;/oms=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "XC",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.5",
+        "zEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17105920_AHPLG-1-5-LINE;/oms=1"
+        ],
+        "equipmentUserLabel": "AHPLG-1-5",
+        "id": "5c4812a2c245544f4eac0cd4_17105152_AHPLG-1-5-SIG;/oms=1-5c4812a2c245544f4eac0cd4_17105920_AHPLG-1-5-LINE;/oms=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": "AHPLG-1-5-SIG;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812a2c245544f4eac0cd4_17105152",
+        "ptpUserLabel": "AHPLG-1-5-SIG",
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "TP",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.5",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-5",
+        "id": "5c4812a2c245544f4eac0cd4_17105152_AHPLG-1-5-SIG;/oms=1"
+    },
+    {
+        "userLabel": "201/AHPLG-1-4-SIG--201/AHPLG-1-5-SIG",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17039616"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5c4812a2c245544f4eac0cd4_17039616_5c4812a2c245544f4eac0cd4_17105152",
+        "type": "TL",
+        "direction": "BI",
+        "zEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17105152"
+        ]
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": "AHPLG-1-4-SIG;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812a2c245544f4eac0cd4_17039616",
+        "ptpUserLabel": "AHPLG-1-4-SIG",
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "TP",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.4",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-4",
+        "id": "5c4812a2c245544f4eac0cd4_17039616_AHPLG-1-4-SIG;/oms=1"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17039616_AHPLG-1-4-SIG;/oms=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "XC",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.4",
+        "zEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17040384_AHPLG-1-4-LINE;/oms=1"
+        ],
+        "equipmentUserLabel": "AHPLG-1-4",
+        "id": "5c4812a2c245544f4eac0cd4_17039616_AHPLG-1-4-SIG;/oms=1-5c4812a2c245544f4eac0cd4_17040384_AHPLG-1-4-LINE;/oms=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c4812a2c245544f4eac0cd4",
+        "userLabel": "AHPLG-1-4-LINE;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812a2c245544f4eac0cd4_17040384",
+        "ptpUserLabel": "AHPLG-1-4-LINE",
+        "isSeparatedRoute": null,
+        "neUserLabel": "201",
+        "type": "TP",
+        "equipmentId": "5c4812a2c245544f4eac0cd4_1.4",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-4",
+        "id": "5c4812a2c245544f4eac0cd4_17040384_AHPLG-1-4-LINE;/oms=1"
+    },
+    {
+        "userLabel": "ne199/AHPLG-1-2-LINE--201/AHPLG-1-4-LINE",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5c481289c245544f4eac0cc9_16909312"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5c481289c245544f4eac0cc9_16909312_5c4812a2c245544f4eac0cd4_17040384",
+        "type": "TL",
+        "direction": "BI",
+        "zEndNodes": [
+            "5c4812a2c245544f4eac0cd4_17040384"
+        ]
+    },
+    {
+        "neId": "5c481289c245544f4eac0cc9",
+        "userLabel": "AHPLG-1-2-LINE;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c481289c245544f4eac0cc9_16909312",
+        "ptpUserLabel": "AHPLG-1-2-LINE",
+        "isSeparatedRoute": null,
+        "neUserLabel": "ne199",
+        "type": "TP",
+        "equipmentId": "5c481289c245544f4eac0cc9_1.2",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-2",
+        "id": "5c481289c245544f4eac0cc9_16909312_AHPLG-1-2-LINE;/oms=1"
+    },
+    {
+        "neId": "5c481289c245544f4eac0cc9",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c481289c245544f4eac0cc9_16908544_AHPLG-1-2-SIG;/oms=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "ne199",
+        "type": "XC",
+        "equipmentId": "5c481289c245544f4eac0cc9_1.2",
+        "zEndNodes": [
+            "5c481289c245544f4eac0cc9_16909312_AHPLG-1-2-LINE;/oms=1"
+        ],
+        "equipmentUserLabel": "AHPLG-1-2",
+        "id": "5c481289c245544f4eac0cc9_16908544_AHPLG-1-2-SIG;/oms=1-5c481289c245544f4eac0cc9_16909312_AHPLG-1-2-LINE;/oms=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c481289c245544f4eac0cc9",
+        "userLabel": "AHPLG-1-2-SIG;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c481289c245544f4eac0cc9_16908544",
+        "ptpUserLabel": "AHPLG-1-2-SIG",
+        "isSeparatedRoute": null,
+        "neUserLabel": "ne199",
+        "type": "TP",
+        "equipmentId": "5c481289c245544f4eac0cc9_1.2",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-2",
+        "id": "5c481289c245544f4eac0cc9_16908544_AHPLG-1-2-SIG;/oms=1"
+    },
+    {
+        "userLabel": "ne199/AHPLG-1-2-SIG--ne199/AHPLG-1-5-SIG",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5c481289c245544f4eac0cc9_16908544"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5c481289c245544f4eac0cc9_16908544_5c481289c245544f4eac0cc9_17105152",
+        "type": "TL",
+        "direction": "BI",
+        "zEndNodes": [
+            "5c481289c245544f4eac0cc9_17105152"
+        ]
+    },
+    {
+        "neId": "5c481289c245544f4eac0cc9",
+        "userLabel": "AHPLG-1-5-SIG;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c481289c245544f4eac0cc9_17105152",
+        "ptpUserLabel": "AHPLG-1-5-SIG",
+        "isSeparatedRoute": null,
+        "neUserLabel": "ne199",
+        "type": "TP",
+        "equipmentId": "5c481289c245544f4eac0cc9_1.5",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-5",
+        "id": "5c481289c245544f4eac0cc9_17105152_AHPLG-1-5-SIG;/oms=1"
+    },
+    {
+        "neId": "5c481289c245544f4eac0cc9",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c481289c245544f4eac0cc9_17105152_AHPLG-1-5-SIG;/oms=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "ne199",
+        "type": "XC",
+        "equipmentId": "5c481289c245544f4eac0cc9_1.5",
+        "zEndNodes": [
+            "5c481289c245544f4eac0cc9_17105920_AHPLG-1-5-LINE;/oms=1"
+        ],
+        "equipmentUserLabel": "AHPLG-1-5",
+        "id": "5c481289c245544f4eac0cc9_17105152_AHPLG-1-5-SIG;/oms=1-5c481289c245544f4eac0cc9_17105920_AHPLG-1-5-LINE;/oms=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c481289c245544f4eac0cc9",
+        "userLabel": "AHPLG-1-5-LINE;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c481289c245544f4eac0cc9_17105920",
+        "ptpUserLabel": "AHPLG-1-5-LINE",
+        "isSeparatedRoute": null,
+        "neUserLabel": "ne199",
+        "type": "TP",
+        "equipmentId": "5c481289c245544f4eac0cc9_1.5",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-5",
+        "id": "5c481289c245544f4eac0cc9_17105920_AHPLG-1-5-LINE;/oms=1"
+    },
+    {
+        "userLabel": "ne199/AHPLG-1-5-LINE--202/AHPLG-1-13-LINE",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5c481289c245544f4eac0cc9_17105920"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5c481289c245544f4eac0cc9_17105920_5c4812adc245544f4eac0cd5_17630208",
+        "type": "TL",
+        "direction": "BI",
+        "zEndNodes": [
+            "5c4812adc245544f4eac0cd5_17630208"
+        ]
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": "AHPLG-1-13-LINE;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812adc245544f4eac0cd5_17630208",
+        "ptpUserLabel": "AHPLG-1-13-LINE",
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "TP",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.13",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-13",
+        "id": "5c4812adc245544f4eac0cd5_17630208_AHPLG-1-13-LINE;/oms=1"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c4812adc245544f4eac0cd5_17629440_AHPLG-1-13-SIG;/oms=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "XC",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.13",
+        "zEndNodes": [
+            "5c4812adc245544f4eac0cd5_17630208_AHPLG-1-13-LINE;/oms=1"
+        ],
+        "equipmentUserLabel": "AHPLG-1-13",
+        "id": "5c4812adc245544f4eac0cd5_17629440_AHPLG-1-13-SIG;/oms=1-5c4812adc245544f4eac0cd5_17630208_AHPLG-1-13-LINE;/oms=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": "AHPLG-1-13-SIG;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812adc245544f4eac0cd5_17629440",
+        "ptpUserLabel": "AHPLG-1-13-SIG",
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "TP",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.13",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-13",
+        "id": "5c4812adc245544f4eac0cd5_17629440_AHPLG-1-13-SIG;/oms=1"
+    },
+    {
+        "userLabel": "202/AHPLG-1-3-SIG--202/AHPLG-1-13-SIG",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5c4812adc245544f4eac0cd5_16974080"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5c4812adc245544f4eac0cd5_16974080_5c4812adc245544f4eac0cd5_17629440",
+        "type": "TL",
+        "direction": "BI",
+        "zEndNodes": [
+            "5c4812adc245544f4eac0cd5_17629440"
+        ]
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": "AHPLG-1-3-SIG;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812adc245544f4eac0cd5_16974080",
+        "ptpUserLabel": "AHPLG-1-3-SIG",
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "TP",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.3",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-3",
+        "id": "5c4812adc245544f4eac0cd5_16974080_AHPLG-1-3-SIG;/oms=1"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c4812adc245544f4eac0cd5_16974080_AHPLG-1-3-SIG;/oms=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "XC",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.3",
+        "zEndNodes": [
+            "5c4812adc245544f4eac0cd5_16974848_AHPLG-1-3-LINE;/oms=1"
+        ],
+        "equipmentUserLabel": "AHPLG-1-3",
+        "id": "5c4812adc245544f4eac0cd5_16974080_AHPLG-1-3-SIG;/oms=1-5c4812adc245544f4eac0cd5_16974848_AHPLG-1-3-LINE;/oms=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": "AHPLG-1-3-LINE;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812adc245544f4eac0cd5_16974848",
+        "ptpUserLabel": "AHPLG-1-3-LINE",
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "TP",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.3",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "AHPLG-1-3",
+        "id": "5c4812adc245544f4eac0cd5_16974848_AHPLG-1-3-LINE;/oms=1"
+    },
+    {
+        "userLabel": "202/AHPLG-1-3-LINE--202/SFD44-25-1-OMD",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5c4812adc245544f4eac0cd5_16974848"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5c4812adc245544f4eac0cd5_16974848_5c4812adc245544f4eac0cd5_419507456",
+        "type": "TL",
+        "direction": "BI",
+        "zEndNodes": [
+            "5c4812adc245544f4eac0cd5_419507456"
+        ]
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": "SFD44-25-1-OMD;/frequency=9440.000",
+        "isMergedRoute": null,
+        "ptpId": "5c4812adc245544f4eac0cd5_419507456",
+        "ptpUserLabel": "SFD44-25-1-OMD",
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "TP",
+        "equipmentId": "5c4812adc245544f4eac0cd5_25.1",
+        "tpType": "CTP",
+        "layerRate": "OCH",
+        "equipmentUserLabel": "SFD44-25-1",
+        "id": "5c4812adc245544f4eac0cd5_419507456_SFD44-25-1-OMD;/frequency=9440.000"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c4812adc245544f4eac0cd5_419500288_SFD44-25-1-9440;/frequency=9440.000"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "XC",
+        "equipmentId": "5c4812adc245544f4eac0cd5_25.1",
+        "zEndNodes": [
+            "5c4812adc245544f4eac0cd5_419507456_SFD44-25-1-OMD;/frequency=9440.000"
+        ],
+        "equipmentUserLabel": "SFD44-25-1",
+        "id": "5c4812adc245544f4eac0cd5_419500288_SFD44-25-1-9440;/frequency=9440.000-5c4812adc245544f4eac0cd5_419507456_SFD44-25-1-OMD;/frequency=9440.000",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": "SFD44-25-1-9440;/frequency=9440.000",
+        "isMergedRoute": null,
+        "ptpId": "5c4812adc245544f4eac0cd5_419500288",
+        "ptpUserLabel": "SFD44-25-1-9440",
+        "isSeparatedRoute": true,
+        "neUserLabel": "202",
+        "type": "TP",
+        "equipmentId": "5c4812adc245544f4eac0cd5_25.1",
+        "separatedRouteElements": {
+            "Tx": [
+                {
+                    "userLabel": "202/SFD44-25-1-9440--202/11QPA4-1-10-L4",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5c4812adc245544f4eac0cd5_419500288"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5c4812adc245544f4eac0cd5_17433600_5c4812adc245544f4eac0cd5_419500288",
+                    "type": "TL",
+                    "direction": "UNI",
+                    "zEndNodes": [
+                        "5c4812adc245544f4eac0cd5_17433600"
+                    ]
+                }
+            ],
+            "Rx": [
+                {
+                    "userLabel": "202/11QPA4-1-10-VA4--202/SFD44-25-1-9440",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5c4812adc245544f4eac0cd5_17435648"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5c4812adc245544f4eac0cd5_17435648_5c4812adc245544f4eac0cd5_419500288",
+                    "type": "TL",
+                    "direction": "UNI",
+                    "zEndNodes": [
+                        "5c4812adc245544f4eac0cd5_419500288"
+                    ]
+                },
+                {
+                    "neId": "5c4812adc245544f4eac0cd5",
+                    "userLabel": "11QPA4-1-10-VA4;/frequency=/tunable-number=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5c4812adc245544f4eac0cd5_17435648",
+                    "ptpUserLabel": "11QPA4-1-10-VA4",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "202",
+                    "type": "TP",
+                    "equipmentId": "5c4812adc245544f4eac0cd5_1.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "11QPA4-1-10",
+                    "id": "5c4812adc245544f4eac0cd5_17435648_11QPA4-1-10-VA4;/frequency=/tunable-number=1"
+                },
+                {
+                    "userLabel": "202/11QPA4-1-10-L4--202/11QPA4-1-10-VA4",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5c4812adc245544f4eac0cd5_17433600"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5c4812adc245544f4eac0cd5_17433600_5c4812adc245544f4eac0cd5_17435648",
+                    "type": "TL",
+                    "direction": "UNI",
+                    "zEndNodes": [
+                        "5c4812adc245544f4eac0cd5_17435648"
+                    ]
+                }
+            ]
+        },
+        "tpType": "CTP",
+        "layerRate": "OCH",
+        "equipmentUserLabel": "SFD44-25-1",
+        "id": "5c4812adc245544f4eac0cd5_419500288_SFD44-25-1-9440;/frequency=9440.000"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": "11QPA4-1-10-L4;/otu2=1/odu2=1",
+        "isMergedRoute": true,
+        "ptpId": "5c4812adc245544f4eac0cd5_17433600",
+        "ptpUserLabel": "11QPA4-1-10-L4",
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "TP",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.10",
+        "tpType": "CTP",
+        "layerRate": "ODU2",
+        "equipmentUserLabel": "11QPA4-1-10",
+        "id": "5c4812adc245544f4eac0cd5_17433600_11QPA4-1-10-L4;/otu2=1/odu2=1"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "SIMPLE",
+        "aEndNodes": [
+            "5c4812adc245544f4eac0cd5_17434624_11QPA4-1-10-C4;/odu2=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "XC",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.10",
+        "zEndNodes": [
+            "5c4812adc245544f4eac0cd5_17433600_11QPA4-1-10-L4;/otu2=1/odu2=1"
+        ],
+        "equipmentUserLabel": "11QPA4-1-10",
+        "id": "5c4812adc245544f4eac0cd5_17434624_11QPA4-1-10-C4;/odu2=1-5c4812adc245544f4eac0cd5_17433600_11QPA4-1-10-L4;/otu2=1/odu2=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5c4812adc245544f4eac0cd5",
+        "userLabel": "11QPA4-1-10-C4;/odu2=1",
+        "isMergedRoute": null,
+        "ptpId": "5c4812adc245544f4eac0cd5_17434624",
+        "ptpUserLabel": "11QPA4-1-10-C4",
+        "isSeparatedRoute": null,
+        "neUserLabel": "202",
+        "type": "TP",
+        "equipmentId": "5c4812adc245544f4eac0cd5_1.10",
+        "tpType": "CTP",
+        "layerRate": "ODU2",
+        "equipmentUserLabel": "11QPA4-1-10",
+        "id": "5c4812adc245544f4eac0cd5_17434624_11QPA4-1-10-C4;/odu2=1"
+    }
+];
 const flowInfo2 = [
     {
         "neId": "5c4812a2c245544f4eac0cd4",
