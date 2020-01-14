@@ -1315,62 +1315,11 @@ const flowInfo_BDBL_5_4_C1__BJM1_18_11_C1 = [
                                 "type": "XC",
                                 "equipmentId": "5dcba0182f801779d84b1ab6_19.4",
                                 "zEndNodes": [
-                                    "5dcba0182f801779d84b1ab6_319030528_WR8-88AF-19-4-ADDIN2;/frequency=9475.000"
-                                ],
-                                "equipmentUserLabel": "WR8-88AF-19-4",
-                                "id": "5dcba0182f801779d84b1ab6_319029504_WR8-88AF-19-4-SIG;/frequency=9475.000-5dcba0182f801779d84b1ab6_319030528_WR8-88AF-19-4-ADDIN2;/frequency=9475.000",
-                                "direction": "BI"
-                            },
-                            {
-                                "neId": "5dcba0182f801779d84b1ab6",
-                                "userLabel": "WR8-88AF-19-4-ADDIN2;/frequency=9475.000",
-                                "isMergedRoute": null,
-                                "ptpId": "5dcba0182f801779d84b1ab6_319030528",
-                                "ptpUserLabel": "WR8-88AF-19-4-ADDIN2",
-                                "isSeparatedRoute": null,
-                                "neUserLabel": "BJM1-PSS32-ROADM-25",
-                                "type": "TP",
-                                "equipmentId": "5dcba0182f801779d84b1ab6_19.4",
-                                "tpType": "CTP",
-                                "layerRate": "OCH",
-                                "equipmentUserLabel": "WR8-88AF-19-4",
-                                "id": "5dcba0182f801779d84b1ab6_319030528_WR8-88AF-19-4-ADDIN2;/frequency=9475.000"
-                            },
-                            {
-                                "userLabel": "BJM1-PSS32-ROADM-25/SFD44B-51-1-OMD--BJM1-PSS32-ROADM-25/WR8-88AF-19-4-ADDIN2",
-                                "isMergedRoute": null,
-                                "protectionType": "NORMAL",
-                                "aEndNodes": [
-                                    "5dcba0182f801779d84b1ab6_855715072"
-                                ],
-                                "isSeparatedRoute": null,
-                                "id": "5dcba0182f801779d84b1ab6_319030528_5dcba0182f801779d84b1ab6_855715072",
-                                "type": "TL",
-                                "direction": "UNI",
-                                "zEndNodes": [
-                                    "5dcba0182f801779d84b1ab6_319030528"
-                                ]
-                            }
-                        ],
-                        "Rx": [
-                            {
-                                "neId": "5dcba0182f801779d84b1ab6",
-                                "userLabel": "TAKEOVER-1577443786133",
-                                "isMergedRoute": null,
-                                "protectionType": "SIMPLE",
-                                "aEndNodes": [
                                     "5dcba0182f801779d84b1ab6_319030016_WR8-88AF-19-4-DROPOUT;/frequency=9475.000"
-                                ],
-                                "isSeparatedRoute": null,
-                                "neUserLabel": "BJM1-PSS32-ROADM-25",
-                                "type": "XC",
-                                "equipmentId": "5dcba0182f801779d84b1ab6_19.4",
-                                "zEndNodes": [
-                                    "5dcba0182f801779d84b1ab6_319029504_WR8-88AF-19-4-SIG;/frequency=9475.000"
                                 ],
                                 "equipmentUserLabel": "WR8-88AF-19-4",
                                 "id": "5dcba0182f801779d84b1ab6_319030016_WR8-88AF-19-4-DROPOUT;/frequency=9475.000-5dcba0182f801779d84b1ab6_319029504_WR8-88AF-19-4-SIG;/frequency=9475.000",
-                                "direction": "BI"
+                                "direction": "UNI"
                             },
                             {
                                 "neId": "5dcba0182f801779d84b1ab6",
@@ -1464,6 +1413,57 @@ const flowInfo_BDBL_5_4_C1__BJM1_18_11_C1 = [
                                 "direction": "UNI",
                                 "zEndNodes": [
                                     "5dcba0182f801779d84b1ab6_855715072"
+                                ]
+                            }
+                        ],
+                        "Rx": [
+                            {
+                                "neId": "5dcba0182f801779d84b1ab6",
+                                "userLabel": "TAKEOVER-1577443786133",
+                                "isMergedRoute": null,
+                                "protectionType": "SIMPLE",
+                                "aEndNodes": [
+                                    "5dcba0182f801779d84b1ab6_319030528_WR8-88AF-19-4-ADDIN2;/frequency=9475.000"
+                                ],
+                                "isSeparatedRoute": null,
+                                "neUserLabel": "BJM1-PSS32-ROADM-25",
+                                "type": "XC",
+                                "equipmentId": "5dcba0182f801779d84b1ab6_19.4",
+                                "zEndNodes": [
+                                    "5dcba0182f801779d84b1ab6_319029504_WR8-88AF-19-4-SIG;/frequency=9475.000"
+                                ],
+                                "equipmentUserLabel": "WR8-88AF-19-4",
+                                "id": "5dcba0182f801779d84b1ab6_319029504_WR8-88AF-19-4-SIG;/frequency=9475.000-5dcba0182f801779d84b1ab6_319030528_WR8-88AF-19-4-ADDIN2;/frequency=9475.000",
+                                "direction": "UNI"
+                            },
+                            {
+                                "neId": "5dcba0182f801779d84b1ab6",
+                                "userLabel": "WR8-88AF-19-4-ADDIN2;/frequency=9475.000",
+                                "isMergedRoute": null,
+                                "ptpId": "5dcba0182f801779d84b1ab6_319030528",
+                                "ptpUserLabel": "WR8-88AF-19-4-ADDIN2",
+                                "isSeparatedRoute": null,
+                                "neUserLabel": "BJM1-PSS32-ROADM-25",
+                                "type": "TP",
+                                "equipmentId": "5dcba0182f801779d84b1ab6_19.4",
+                                "tpType": "CTP",
+                                "layerRate": "OCH",
+                                "equipmentUserLabel": "WR8-88AF-19-4",
+                                "id": "5dcba0182f801779d84b1ab6_319030528_WR8-88AF-19-4-ADDIN2;/frequency=9475.000"
+                            },
+                            {
+                                "userLabel": "BJM1-PSS32-ROADM-25/SFD44B-51-1-OMD--BJM1-PSS32-ROADM-25/WR8-88AF-19-4-ADDIN2",
+                                "isMergedRoute": null,
+                                "protectionType": "NORMAL",
+                                "aEndNodes": [
+                                    "5dcba0182f801779d84b1ab6_855715072"
+                                ],
+                                "isSeparatedRoute": null,
+                                "id": "5dcba0182f801779d84b1ab6_319030528_5dcba0182f801779d84b1ab6_855715072",
+                                "type": "TL",
+                                "direction": "UNI",
+                                "zEndNodes": [
+                                    "5dcba0182f801779d84b1ab6_319030528"
                                 ]
                             }
                         ]
@@ -2389,25 +2389,25 @@ const flowInfo_BDBL_5_4_C1__BJM1_18_11_C1 = [
                     "type": "TP",
                     "equipmentId": "5dcba0182f801779d84b1ab6_18.4",
                     "separatedRouteElements": {
-                        "Rx": [
+                        "Tx": [
                             {
                                 "neId": "5dcba0182f801779d84b1ab6",
                                 "userLabel": "TAKEOVER-1577443786133",
                                 "isMergedRoute": null,
                                 "protectionType": "SIMPLE",
                                 "aEndNodes": [
-                                    "5dcba0182f801779d84b1ab6_302252800_WR8-88AF-18-4-DROPOUT;/frequency=9475.000"
+                                    "5dcba0182f801779d84b1ab6_302252288_WR8-88AF-18-4-SIG;/frequency=9475.000"
                                 ],
                                 "isSeparatedRoute": null,
                                 "neUserLabel": "BJM1-PSS32-ROADM-25",
                                 "type": "XC",
                                 "equipmentId": "5dcba0182f801779d84b1ab6_18.4",
                                 "zEndNodes": [
-                                    "5dcba0182f801779d84b1ab6_302252288_WR8-88AF-18-4-SIG;/frequency=9475.000"
+                                    "5dcba0182f801779d84b1ab6_302252800_WR8-88AF-18-4-DROPOUT;/frequency=9475.000"
                                 ],
                                 "equipmentUserLabel": "WR8-88AF-18-4",
                                 "id": "5dcba0182f801779d84b1ab6_302252800_WR8-88AF-18-4-DROPOUT;/frequency=9475.000-5dcba0182f801779d84b1ab6_302252288_WR8-88AF-18-4-SIG;/frequency=9475.000",
-                                "direction": "BI"
+                                "direction": "UNI"
                             },
                             {
                                 "neId": "5dcba0182f801779d84b1ab6",
@@ -2501,6 +2501,57 @@ const flowInfo_BDBL_5_4_C1__BJM1_18_11_C1 = [
                                 "direction": "UNI",
                                 "zEndNodes": [
                                     "5dcba0182f801779d84b1ab6_805383424"
+                                ]
+                            }
+                        ],
+                        "Rx": [
+                            {
+                                "neId": "5dcba0182f801779d84b1ab6",
+                                "userLabel": "TAKEOVER-1577443786133",
+                                "isMergedRoute": null,
+                                "protectionType": "SIMPLE",
+                                "aEndNodes": [
+                                    "5dcba0182f801779d84b1ab6_302253312_WR8-88AF-18-4-ADDIN2;/frequency=9475.000"
+                                ],
+                                "isSeparatedRoute": null,
+                                "neUserLabel": "BJM1-PSS32-ROADM-25",
+                                "type": "XC",
+                                "equipmentId": "5dcba0182f801779d84b1ab6_18.4",
+                                "zEndNodes": [
+                                    "5dcba0182f801779d84b1ab6_302252288_WR8-88AF-18-4-SIG;/frequency=9475.000"
+                                ],
+                                "equipmentUserLabel": "WR8-88AF-18-4",
+                                "id": "5dcba0182f801779d84b1ab6_302253312_WR8-88AF-18-4-ADDIN2;/frequency=9475.000-5dcba0182f801779d84b1ab6_302252288_WR8-88AF-18-4-SIG;/frequency=9475.000",
+                                "direction": "UNI"
+                            },
+                            {
+                                "neId": "5dcba0182f801779d84b1ab6",
+                                "userLabel": "WR8-88AF-18-4-ADDIN2;/frequency=9475.000",
+                                "isMergedRoute": null,
+                                "ptpId": "5dcba0182f801779d84b1ab6_302253312",
+                                "ptpUserLabel": "WR8-88AF-18-4-ADDIN2",
+                                "isSeparatedRoute": null,
+                                "neUserLabel": "BJM1-PSS32-ROADM-25",
+                                "type": "TP",
+                                "equipmentId": "5dcba0182f801779d84b1ab6_18.4",
+                                "tpType": "CTP",
+                                "layerRate": "OCH",
+                                "equipmentUserLabel": "WR8-88AF-18-4",
+                                "id": "5dcba0182f801779d84b1ab6_302253312_WR8-88AF-18-4-ADDIN2;/frequency=9475.000"
+                            },
+                            {
+                                "userLabel": "BJM1-PSS32-ROADM-25/SFD44B-48-1-OMD--BJM1-PSS32-ROADM-25/WR8-88AF-18-4-ADDIN2",
+                                "isMergedRoute": null,
+                                "protectionType": "NORMAL",
+                                "aEndNodes": [
+                                    "5dcba0182f801779d84b1ab6_805383424"
+                                ],
+                                "isSeparatedRoute": null,
+                                "id": "5dcba0182f801779d84b1ab6_302253312_5dcba0182f801779d84b1ab6_805383424",
+                                "type": "TL",
+                                "direction": "UNI",
+                                "zEndNodes": [
+                                    "5dcba0182f801779d84b1ab6_302253312"
                                 ]
                             }
                         ]
