@@ -1551,41 +1551,6 @@ const flowInfo_BDBL_5_4_C1__BJM1_18_11_C1 = [
                     "layerRate": "OCH",
                     "equipmentUserLabel": "OPSA-18-26",
                     "id": "5dcba0182f801779d84b1ab6_303694592_OPSA-18-26-B;/frequency=/tunable-number=1"
-                },
-                {
-                    "neId": "5dcba0182f801779d84b1ab6",
-                    "userLabel": null,
-                    "isMergedRoute": null,
-                    "protectionType": "OPS",
-                    "aEndNodes": [
-                        "5dcba0182f801779d84b1ab6_303694080_OPSA-18-26-SIG;/frequency=/tunable-number=1"
-                    ],
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "BJM1-PSS32-ROADM-25",
-                    "type": "XC",
-                    "equipmentId": "5dcba0182f801779d84b1ab6_18.26",
-                    "zEndNodes": [
-                        "5dcba0182f801779d84b1ab6_303694336_OPSA-18-26-A;/frequency=/tunable-number=1",
-                        "5dcba0182f801779d84b1ab6_303694592_OPSA-18-26-B;/frequency=/tunable-number=1"
-                    ],
-                    "equipmentUserLabel": "OPSA-18-26",
-                    "id": "5dcba0182f801779d84b1ab6_303694080_OPSA-18-26-SIG;/frequency=/tunable-number=1-5dcba0182f801779d84b1ab6_303694336_OPSA-18-26-A;/frequency=/tunable-number=1-5dcba0182f801779d84b1ab6_303694592_OPSA-18-26-B;/frequency=/tunable-number=1",
-                    "direction": "BI"
-                },
-                {
-                    "neId": "5dcba0182f801779d84b1ab6",
-                    "userLabel": "OPSA-18-26-B;/frequency=/tunable-number=1",
-                    "isMergedRoute": null,
-                    "ptpId": "5dcba0182f801779d84b1ab6_303694592",
-                    "ptpUserLabel": "OPSA-18-26-B",
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "BJM1-PSS32-ROADM-25",
-                    "type": "TP",
-                    "equipmentId": "5dcba0182f801779d84b1ab6_18.26",
-                    "tpType": "CTP",
-                    "layerRate": "OCH",
-                    "equipmentUserLabel": "OPSA-18-26",
-                    "id": "5dcba0182f801779d84b1ab6_303694592_OPSA-18-26-B;/frequency=/tunable-number=1"
                 }
             ],
             "Main": [
@@ -2639,41 +2604,6 @@ const flowInfo_BDBL_5_4_C1__BJM1_18_11_C1 = [
                     "layerRate": "OCH",
                     "equipmentUserLabel": "OPSA-18-26",
                     "id": "5dcba0182f801779d84b1ab6_303694336_OPSA-18-26-A;/frequency=/tunable-number=1"
-                },
-                {
-                    "neId": "5dcba0182f801779d84b1ab6",
-                    "userLabel": null,
-                    "isMergedRoute": null,
-                    "protectionType": "OPS",
-                    "aEndNodes": [
-                        "5dcba0182f801779d84b1ab6_303694080_OPSA-18-26-SIG;/frequency=/tunable-number=1"
-                    ],
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "BJM1-PSS32-ROADM-25",
-                    "type": "XC",
-                    "equipmentId": "5dcba0182f801779d84b1ab6_18.26",
-                    "zEndNodes": [
-                        "5dcba0182f801779d84b1ab6_303694336_OPSA-18-26-A;/frequency=/tunable-number=1",
-                        "5dcba0182f801779d84b1ab6_303694592_OPSA-18-26-B;/frequency=/tunable-number=1"
-                    ],
-                    "equipmentUserLabel": "OPSA-18-26",
-                    "id": "5dcba0182f801779d84b1ab6_303694080_OPSA-18-26-SIG;/frequency=/tunable-number=1-5dcba0182f801779d84b1ab6_303694336_OPSA-18-26-A;/frequency=/tunable-number=1-5dcba0182f801779d84b1ab6_303694592_OPSA-18-26-B;/frequency=/tunable-number=1",
-                    "direction": "BI"
-                },
-                {
-                    "neId": "5dcba0182f801779d84b1ab6",
-                    "userLabel": "OPSA-18-26-A;/frequency=/tunable-number=1",
-                    "isMergedRoute": null,
-                    "ptpId": "5dcba0182f801779d84b1ab6_303694336",
-                    "ptpUserLabel": "OPSA-18-26-A",
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "BJM1-PSS32-ROADM-25",
-                    "type": "TP",
-                    "equipmentId": "5dcba0182f801779d84b1ab6_18.26",
-                    "tpType": "CTP",
-                    "layerRate": "OCH",
-                    "equipmentUserLabel": "OPSA-18-26",
-                    "id": "5dcba0182f801779d84b1ab6_303694336_OPSA-18-26-A;/frequency=/tunable-number=1"
                 }
             ]
         },
@@ -3426,41 +3356,6 @@ const flowInfo_IQY_PBS_2_16_C1__IQY_RSJT_2_12_C1 = [
                     "layerRate": "OMS",
                     "equipmentUserLabel": "OPSA-16-8",
                     "id": "5dcba0182f801779d84b1ab6_268960512_OPSA-16-8-B;/frequency=/oms=1"
-                },
-                {
-                    "neId": "5dcba0182f801779d84b1ab6",
-                    "userLabel": null,
-                    "isMergedRoute": null,
-                    "protectionType": "OPS",
-                    "aEndNodes": [
-                        "5dcba0182f801779d84b1ab6_268960000_OPSA-16-8-SIG;/frequency=/oms=1"
-                    ],
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "BJM1-PSS32-ROADM-25",
-                    "type": "XC",
-                    "equipmentId": "5dcba0182f801779d84b1ab6_16.8",
-                    "zEndNodes": [
-                        "5dcba0182f801779d84b1ab6_268960256_OPSA-16-8-A;/frequency=/oms=1",
-                        "5dcba0182f801779d84b1ab6_268960512_OPSA-16-8-B;/frequency=/oms=1"
-                    ],
-                    "equipmentUserLabel": "OPSA-16-8",
-                    "id": "5dcba0182f801779d84b1ab6_268960000_OPSA-16-8-SIG;/frequency=/oms=1-5dcba0182f801779d84b1ab6_268960256_OPSA-16-8-A;/frequency=/oms=1-5dcba0182f801779d84b1ab6_268960512_OPSA-16-8-B;/frequency=/oms=1",
-                    "direction": "BI"
-                },
-                {
-                    "neId": "5dcba0182f801779d84b1ab6",
-                    "userLabel": "OPSA-16-8-B;/frequency=/oms=1",
-                    "isMergedRoute": null,
-                    "ptpId": "5dcba0182f801779d84b1ab6_268960512",
-                    "ptpUserLabel": "OPSA-16-8-B",
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "BJM1-PSS32-ROADM-25",
-                    "type": "TP",
-                    "equipmentId": "5dcba0182f801779d84b1ab6_16.8",
-                    "tpType": "CTP",
-                    "layerRate": "OMS",
-                    "equipmentUserLabel": "OPSA-16-8",
-                    "id": "5dcba0182f801779d84b1ab6_268960512_OPSA-16-8-B;/frequency=/oms=1"
                 }
             ],
             "Main": [
@@ -3749,41 +3644,6 @@ const flowInfo_IQY_PBS_2_16_C1__IQY_RSJT_2_12_C1 = [
                     "zEndNodes": [
                         "5dcba0182f801779d84b1ab6_268960256"
                     ]
-                },
-                {
-                    "neId": "5dcba0182f801779d84b1ab6",
-                    "userLabel": "OPSA-16-8-A;/frequency=/oms=1",
-                    "isMergedRoute": null,
-                    "ptpId": "5dcba0182f801779d84b1ab6_268960256",
-                    "ptpUserLabel": "OPSA-16-8-A",
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "BJM1-PSS32-ROADM-25",
-                    "type": "TP",
-                    "equipmentId": "5dcba0182f801779d84b1ab6_16.8",
-                    "tpType": "CTP",
-                    "layerRate": "OMS",
-                    "equipmentUserLabel": "OPSA-16-8",
-                    "id": "5dcba0182f801779d84b1ab6_268960256_OPSA-16-8-A;/frequency=/oms=1"
-                },
-                {
-                    "neId": "5dcba0182f801779d84b1ab6",
-                    "userLabel": null,
-                    "isMergedRoute": null,
-                    "protectionType": "OPS",
-                    "aEndNodes": [
-                        "5dcba0182f801779d84b1ab6_268960000_OPSA-16-8-SIG;/frequency=/oms=1"
-                    ],
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "BJM1-PSS32-ROADM-25",
-                    "type": "XC",
-                    "equipmentId": "5dcba0182f801779d84b1ab6_16.8",
-                    "zEndNodes": [
-                        "5dcba0182f801779d84b1ab6_268960256_OPSA-16-8-A;/frequency=/oms=1",
-                        "5dcba0182f801779d84b1ab6_268960512_OPSA-16-8-B;/frequency=/oms=1"
-                    ],
-                    "equipmentUserLabel": "OPSA-16-8",
-                    "id": "5dcba0182f801779d84b1ab6_268960000_OPSA-16-8-SIG;/frequency=/oms=1-5dcba0182f801779d84b1ab6_268960256_OPSA-16-8-A;/frequency=/oms=1-5dcba0182f801779d84b1ab6_268960512_OPSA-16-8-B;/frequency=/oms=1",
-                    "direction": "BI"
                 },
                 {
                     "neId": "5dcba0182f801779d84b1ab6",
@@ -4317,41 +4177,6 @@ const flowInfo_IQY_PBS_2_16_C1__IQY_RSJT_2_12_C1 = [
                     "layerRate": "OMS",
                     "equipmentUserLabel": "OPSA-2-8",
                     "id": "5dcbb16e2f801779d84b207e_34079488_OPSA-2-8-B;/frequency=/oms=1"
-                },
-                {
-                    "neId": "5dcbb16e2f801779d84b207e",
-                    "userLabel": null,
-                    "isMergedRoute": null,
-                    "protectionType": "OPS",
-                    "aEndNodes": [
-                        "5dcbb16e2f801779d84b207e_34078976_OPSA-2-8-SIG;/frequency=/oms=1"
-                    ],
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "IQY-RSJT-ROADM-46",
-                    "type": "XC",
-                    "equipmentId": "5dcbb16e2f801779d84b207e_2.8",
-                    "zEndNodes": [
-                        "5dcbb16e2f801779d84b207e_34079232_OPSA-2-8-A;/frequency=/oms=1",
-                        "5dcbb16e2f801779d84b207e_34079488_OPSA-2-8-B;/frequency=/oms=1"
-                    ],
-                    "equipmentUserLabel": "OPSA-2-8",
-                    "id": "5dcbb16e2f801779d84b207e_34078976_OPSA-2-8-SIG;/frequency=/oms=1-5dcbb16e2f801779d84b207e_34079232_OPSA-2-8-A;/frequency=/oms=1-5dcbb16e2f801779d84b207e_34079488_OPSA-2-8-B;/frequency=/oms=1",
-                    "direction": "BI"
-                },
-                {
-                    "neId": "5dcbb16e2f801779d84b207e",
-                    "userLabel": "OPSA-2-8-B;/frequency=/oms=1",
-                    "isMergedRoute": null,
-                    "ptpId": "5dcbb16e2f801779d84b207e_34079488",
-                    "ptpUserLabel": "OPSA-2-8-B",
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "IQY-RSJT-ROADM-46",
-                    "type": "TP",
-                    "equipmentId": "5dcbb16e2f801779d84b207e_2.8",
-                    "tpType": "CTP",
-                    "layerRate": "OMS",
-                    "equipmentUserLabel": "OPSA-2-8",
-                    "id": "5dcbb16e2f801779d84b207e_34079488_OPSA-2-8-B;/frequency=/oms=1"
                 }
             ],
             "Main": [
@@ -4640,41 +4465,6 @@ const flowInfo_IQY_PBS_2_16_C1__IQY_RSJT_2_12_C1 = [
                     "zEndNodes": [
                         "5dcbb16e2f801779d84b207e_34079232"
                     ]
-                },
-                {
-                    "neId": "5dcbb16e2f801779d84b207e",
-                    "userLabel": "OPSA-2-8-A;/frequency=/oms=1",
-                    "isMergedRoute": null,
-                    "ptpId": "5dcbb16e2f801779d84b207e_34079232",
-                    "ptpUserLabel": "OPSA-2-8-A",
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "IQY-RSJT-ROADM-46",
-                    "type": "TP",
-                    "equipmentId": "5dcbb16e2f801779d84b207e_2.8",
-                    "tpType": "CTP",
-                    "layerRate": "OMS",
-                    "equipmentUserLabel": "OPSA-2-8",
-                    "id": "5dcbb16e2f801779d84b207e_34079232_OPSA-2-8-A;/frequency=/oms=1"
-                },
-                {
-                    "neId": "5dcbb16e2f801779d84b207e",
-                    "userLabel": null,
-                    "isMergedRoute": null,
-                    "protectionType": "OPS",
-                    "aEndNodes": [
-                        "5dcbb16e2f801779d84b207e_34078976_OPSA-2-8-SIG;/frequency=/oms=1"
-                    ],
-                    "isSeparatedRoute": null,
-                    "neUserLabel": "IQY-RSJT-ROADM-46",
-                    "type": "XC",
-                    "equipmentId": "5dcbb16e2f801779d84b207e_2.8",
-                    "zEndNodes": [
-                        "5dcbb16e2f801779d84b207e_34079232_OPSA-2-8-A;/frequency=/oms=1",
-                        "5dcbb16e2f801779d84b207e_34079488_OPSA-2-8-B;/frequency=/oms=1"
-                    ],
-                    "equipmentUserLabel": "OPSA-2-8",
-                    "id": "5dcbb16e2f801779d84b207e_34078976_OPSA-2-8-SIG;/frequency=/oms=1-5dcbb16e2f801779d84b207e_34079232_OPSA-2-8-A;/frequency=/oms=1-5dcbb16e2f801779d84b207e_34079488_OPSA-2-8-B;/frequency=/oms=1",
-                    "direction": "BI"
                 },
                 {
                     "neId": "5dcbb16e2f801779d84b207e",
@@ -5044,6 +4834,7 @@ const flowInfo_IQY_PBS_2_16_C1__IQY_RSJT_2_12_C1 = [
         "id": "5dcbb16e2f801779d84b207e_34341376_260SCX2-2-12-C1;/odu4=1"
     }
 ];
+
 const flowInfo_147_130SNX10_3_2_C1_OTS_Fiber = [
     {
         "neId": "5e16faf5a855d35c02adf802",
