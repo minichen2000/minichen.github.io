@@ -116,7 +116,7 @@ const flowInfo_11QPA4_4_3_C1_CAT = [
     },
     {
         "neId": "5c4812a2c245544f4eac0cd4",
-        "userLabel": "112SDX11-4-2-C1",
+        "userLabel": "112SDX11-4-2-C1;/odu2=1",
         "isMergedRoute": true,
         "ptpId": "5c4812a2c245544f4eac0cd4_67241216",
         "ptpUserLabel": "112SDX11-4-2-C1",
@@ -124,10 +124,10 @@ const flowInfo_11QPA4_4_3_C1_CAT = [
         "neUserLabel": "201",
         "type": "TP",
         "equipmentId": "5c4812a2c245544f4eac0cd4_4.2",
-        "tpType": "PTP",
-        "layerRate": "OS",
+        "tpType": "CTP",
+        "layerRate": "ODU2",
         "equipmentUserLabel": "112SDX11-4-2",
-        "id": "5c4812a2c245544f4eac0cd4_67241216"
+        "id": "5c4812a2c245544f4eac0cd4_67241216_112SDX11-4-2-C1;/odu2=1"
     },
     {
         "neId": "5c4812a2c245544f4eac0cd4",
