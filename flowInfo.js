@@ -1,3 +1,62 @@
+const flowInfo_alarm1 = [
+    {
+        "neId":"5cf4c0b717c04d4e3dbb4623",
+        "userLabel":"AHPHG-2-4-LINE",
+        "isMergedRoute":null,
+        "ptpId":"5cf4c0b717c04d4e3dbb4623_33817600",
+        "ptpUserLabel":"AHPHG-2-4-LINE",
+        "isSeparatedRoute":null,
+        "neUserLabel":"135.251.97.65",
+        "type":"TP",
+        "params":{
+            "rootAlarmState":"CLEARED",
+            "alarmState":"CLEARED"
+        },
+        "equipmentId":"5cf4c0b717c04d4e3dbb4623_2.4",
+        "tpType":"PTP",
+        "layerRate":"OTS",
+        "equipmentUserLabel":"AHPHG-2-4",
+        "id":"5cf4c0b717c04d4e3dbb4623_33817600"
+    },
+    {
+        "userLabel":"135.251.97.65/AHPHG-2-4-LINE--135.251.97.53/AHPHG-2-4-LINE",
+        "isMergedRoute":null,
+        "protectionType":"NORMAL",
+        "aEndNodes":[
+            "5cf4c0b717c04d4e3dbb4623_33817600"
+        ],
+        "isSeparatedRoute":null,
+        "id":"5cf4c0b717c04d4e3dbb4623_33817600_5cf4c10117c04d4e3dbb4626_33817600",
+        "type":"TL",
+        "params":{
+            "rootAlarmState":"MAJOR",
+            "alarmState":"CRITICAL"
+        },
+        "direction":"BI",
+        "zEndNodes":[
+            "5cf4c10117c04d4e3dbb4626_33817600"
+        ]
+    },
+    {
+        "neId":"5cf4c10117c04d4e3dbb4626",
+        "userLabel":"AHPHG-2-4-LINE",
+        "isMergedRoute":null,
+        "ptpId":"5cf4c10117c04d4e3dbb4626_33817600",
+        "ptpUserLabel":"AHPHG-2-4-LINE",
+        "isSeparatedRoute":null,
+        "neUserLabel":"135.251.97.53",
+        "type":"TP",
+        "params":{
+            "rootAlarmState":"MINOR",
+            "alarmState":"MINOR"
+        },
+        "equipmentId":"5cf4c10117c04d4e3dbb4626_2.4",
+        "tpType":"PTP",
+        "layerRate":"OTS",
+        "equipmentUserLabel":"AHPHG-2-4",
+        "id":"5cf4c10117c04d4e3dbb4626_33817600"
+    }
+];
 const flowInfo_24x_DSR_SNCP = [
     {
         "neId":"5d3532ba88a53b2fa33628a2",
