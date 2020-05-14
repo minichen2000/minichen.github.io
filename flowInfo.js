@@ -17218,3 +17218,2083 @@ const flowInfo6 = [
         "id": "5e0dba17c0348a5d5c29c610_33685760_260SCX2-2-2-L1;/frequency=/tunable-number=1"
     }
 ]
+const ycable=[
+    {
+        "neId": "5e8c26c137f34e197290f59f",
+        "userLabel": "PHONY_START_TP",
+        "isMergedRoute": null,
+        "ptpId": "PHONY_START_TP",
+        "ptpUserLabel": "PHONY_START_TP",
+        "isSeparatedRoute": null,
+        "neUserLabel": "龙南",
+        "type": "TP",
+        "params": {
+            "rootAlarmState": null,
+            "alarmState": "CLEARED"
+        },
+        "equipmentId": null,
+        "tpType": "PTP",
+        "layerRate": null,
+        "equipmentUserLabel": null,
+        "id": "PHONY_START_TP"
+    },
+    {
+        "neId": "5e8c26c137f34e197290f59f",
+        "userLabel": "PHONY_START_XC",
+        "isMergedRoute": null,
+        "protectionType": "SNCP",
+        "aEndNodes": [
+            "PHONY_START_TP"
+        ],
+        "isSeparatedRoute": true,
+        "neUserLabel": "龙南",
+        "pgData": null,
+        "type": "XC",
+        "params": null,
+        "equipmentId": null,
+        "zEndNodes": [
+            "5e8c26c137f34e197290f59f_50791424_43STX4-3-7-C3;/odu2=1",
+            "5e8c275f37f34e197290f76d_17564672_43STX4-1-12-C3;/odu2=1"
+        ],
+        "separatedRouteElements": {
+            "Spare": [
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "43STX4-1-12-C3;/odu2=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_17564672",
+                    "ptpUserLabel": "43STX4-1-12-C3",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.12",
+                    "tpType": "CTP",
+                    "layerRate": "ODU2",
+                    "equipmentUserLabel": "43STX4-1-12",
+                    "id": "5e8c275f37f34e197290f76d_17564672_43STX4-1-12-C3;/odu2=1"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_17564672_43STX4-1-12-C3;/odu2=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.12",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_17563904_43STX4-1-12-L1;/otu3=1/odu3=1/odu2=3"
+                    ],
+                    "equipmentUserLabel": "43STX4-1-12",
+                    "id": "5e8c275f37f34e197290f76d_17564672_43STX4-1-12-C3;/odu2=1-5e8c275f37f34e197290f76d_17563904_43STX4-1-12-L1;/otu3=1/odu3=1/odu2=3",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "43STX4-1-12-L1;/otu3=1/odu3=1/odu2=3",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_17563904",
+                    "ptpUserLabel": "43STX4-1-12-L1",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.12",
+                    "tpType": "CTP",
+                    "layerRate": "ODU2",
+                    "equipmentUserLabel": "43STX4-1-12",
+                    "id": "5e8c275f37f34e197290f76d_17563904_43STX4-1-12-L1;/otu3=1/odu3=1/odu2=3"
+                },
+                {
+                    "userLabel": "沪闵/43STX4-1-12-L1--沪闵/SFD44-25-1-9560",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_17563904"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c275f37f34e197290f76d_17563904_5e8c275f37f34e197290f76d_419497216",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_419497216"
+                    ]
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "SFD44-25-1-9560;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_419497216",
+                    "ptpUserLabel": "SFD44-25-1-9560",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_25.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c275f37f34e197290f76d_419497216_SFD44-25-1-9560;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_419497216_SFD44-25-1-9560;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c275f37f34e197290f76d_25.1",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_419507456_SFD44-25-1-OMD;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c275f37f34e197290f76d_419497216_SFD44-25-1-9560;/frequency=9560.000-5e8c275f37f34e197290f76d_419507456_SFD44-25-1-OMD;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "SFD44-25-1-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_419507456",
+                    "ptpUserLabel": "SFD44-25-1-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_25.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c275f37f34e197290f76d_419507456_SFD44-25-1-OMD;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "沪闵/AHPHG-1-2-SIG--沪闵/SFD44-25-1-OMD",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_16908544"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c275f37f34e197290f76d_16908544_5e8c275f37f34e197290f76d_419507456",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_419507456"
+                    ]
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "AHPHG-1-2-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_16908544",
+                    "ptpUserLabel": "AHPHG-1-2-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c275f37f34e197290f76d_16908544_AHPHG-1-2-SIG;/oms=1"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_16908544_AHPHG-1-2-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.2",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_16909312_AHPHG-1-2-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c275f37f34e197290f76d_16908544_AHPHG-1-2-SIG;/oms=1-5e8c275f37f34e197290f76d_16909312_AHPHG-1-2-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "AHPHG-1-2-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_16909312",
+                    "ptpUserLabel": "AHPHG-1-2-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c275f37f34e197290f76d_16909312_AHPHG-1-2-LINE;/oms=1"
+                },
+                {
+                    "userLabel": "沪闵/AHPHG-1-2-LINE--龙南/AHPHG-3-2-LINE",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_16909312"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26c137f34e197290f59f_50463744_5e8c275f37f34e197290f76d_16909312",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_50463744"
+                    ]
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "AHPHG-3-2-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_50463744",
+                    "ptpUserLabel": "AHPHG-3-2-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-3-2",
+                    "id": "5e8c26c137f34e197290f59f_50463744_AHPHG-3-2-LINE;/oms=1"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_50462976_AHPHG-3-2-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.2",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_50463744_AHPHG-3-2-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-3-2",
+                    "id": "5e8c26c137f34e197290f59f_50462976_AHPHG-3-2-SIG;/oms=1-5e8c26c137f34e197290f59f_50463744_AHPHG-3-2-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "AHPHG-3-2-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_50462976",
+                    "ptpUserLabel": "AHPHG-3-2-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-3-2",
+                    "id": "5e8c26c137f34e197290f59f_50462976_AHPHG-3-2-SIG;/oms=1"
+                },
+                {
+                    "userLabel": "龙南/AHPHG-3-2-SIG--龙南/CWR8-3-10-SIG",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_50462976"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26c137f34e197290f59f_50462976_5e8c26c137f34e197290f59f_50987264",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_50987264"
+                    ]
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "CWR8-3-10-SIG;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_50987264",
+                    "ptpUserLabel": "CWR8-3-10-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "CWR8-3-10",
+                    "id": "5e8c26c137f34e197290f59f_50987264_CWR8-3-10-SIG;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "TAKEOVER-1586248113561",
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_50987776_CWR8-3-10-OMD;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.10",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_50987264_CWR8-3-10-SIG;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "CWR8-3-10",
+                    "id": "5e8c26c137f34e197290f59f_50987776_CWR8-3-10-OMD;/frequency=9560.000-5e8c26c137f34e197290f59f_50987264_CWR8-3-10-SIG;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "CWR8-3-10-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_50987776",
+                    "ptpUserLabel": "CWR8-3-10-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "CWR8-3-10",
+                    "id": "5e8c26c137f34e197290f59f_50987776_CWR8-3-10-OMD;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "龙南/CWR8-3-10-OMD--龙南/SFD44-27-1-OMD",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_50987776"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26c137f34e197290f59f_453061888_5e8c26c137f34e197290f59f_50987776",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_453061888"
+                    ]
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "SFD44-27-1-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_453061888",
+                    "ptpUserLabel": "SFD44-27-1-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_27.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-27-1",
+                    "id": "5e8c26c137f34e197290f59f_453061888_SFD44-27-1-OMD;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_453051648_SFD44-27-1-9560;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26c137f34e197290f59f_27.1",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_453061888_SFD44-27-1-OMD;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "SFD44-27-1",
+                    "id": "5e8c26c137f34e197290f59f_453051648_SFD44-27-1-9560;/frequency=9560.000-5e8c26c137f34e197290f59f_453061888_SFD44-27-1-OMD;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "SFD44-27-1-9560;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_453051648",
+                    "ptpUserLabel": "SFD44-27-1-9560",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_27.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-27-1",
+                    "id": "5e8c26c137f34e197290f59f_453051648_SFD44-27-1-9560;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "龙南/43STX4-3-4-L1--龙南/SFD44-27-1-9560",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_50594048"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26c137f34e197290f59f_453051648_5e8c26c137f34e197290f59f_50594048",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_453051648"
+                    ]
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "43STX4-3-4-L1;/otu3=1/odu3=1/odu2=3",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_50594048",
+                    "ptpUserLabel": "43STX4-3-4-L1",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.4",
+                    "tpType": "CTP",
+                    "layerRate": "ODU2",
+                    "equipmentUserLabel": "43STX4-3-4",
+                    "id": "5e8c26c137f34e197290f59f_50594048_43STX4-3-4-L1;/otu3=1/odu3=1/odu2=3"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_50594816_43STX4-3-4-C3;/odu2=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.4",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_50594048_43STX4-3-4-L1;/otu3=1/odu3=1/odu2=3"
+                    ],
+                    "equipmentUserLabel": "43STX4-3-4",
+                    "id": "5e8c26c137f34e197290f59f_50594816_43STX4-3-4-C3;/odu2=1-5e8c26c137f34e197290f59f_50594048_43STX4-3-4-L1;/otu3=1/odu3=1/odu2=3",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "43STX4-3-4-C3;/odu2=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_50594816",
+                    "ptpUserLabel": "43STX4-3-4-C3",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.4",
+                    "tpType": "CTP",
+                    "layerRate": "ODU2",
+                    "equipmentUserLabel": "43STX4-3-4",
+                    "id": "5e8c26c137f34e197290f59f_50594816_43STX4-3-4-C3;/odu2=1"
+                }
+            ],
+            "Main": [
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "43STX4-3-7-C3;/odu2=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_50791424",
+                    "ptpUserLabel": "43STX4-3-7-C3",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.7",
+                    "tpType": "CTP",
+                    "layerRate": "ODU2",
+                    "equipmentUserLabel": "43STX4-3-7",
+                    "id": "5e8c26c137f34e197290f59f_50791424_43STX4-3-7-C3;/odu2=1"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_50791424_43STX4-3-7-C3;/odu2=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.7",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_50790656_43STX4-3-7-L1;/otu3=1/odu3=1/odu2=3"
+                    ],
+                    "equipmentUserLabel": "43STX4-3-7",
+                    "id": "5e8c26c137f34e197290f59f_50791424_43STX4-3-7-C3;/odu2=1-5e8c26c137f34e197290f59f_50790656_43STX4-3-7-L1;/otu3=1/odu3=1/odu2=3",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "43STX4-3-7-L1;/otu3=1/odu3=1/odu2=3",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_50790656",
+                    "ptpUserLabel": "43STX4-3-7-L1",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_3.7",
+                    "tpType": "CTP",
+                    "layerRate": "ODU2",
+                    "equipmentUserLabel": "43STX4-3-7",
+                    "id": "5e8c26c137f34e197290f59f_50790656_43STX4-3-7-L1;/otu3=1/odu3=1/odu2=3"
+                },
+                {
+                    "userLabel": "龙南/43STX4-3-7-L1--龙南/SFD44-25-1-9560",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_50790656"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26c137f34e197290f59f_419497216_5e8c26c137f34e197290f59f_50790656",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_419497216"
+                    ]
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "SFD44-25-1-9560;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_419497216",
+                    "ptpUserLabel": "SFD44-25-1-9560",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_25.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c26c137f34e197290f59f_419497216_SFD44-25-1-9560;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_419497216_SFD44-25-1-9560;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26c137f34e197290f59f_25.1",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_419507456_SFD44-25-1-OMD;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c26c137f34e197290f59f_419497216_SFD44-25-1-9560;/frequency=9560.000-5e8c26c137f34e197290f59f_419507456_SFD44-25-1-OMD;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "SFD44-25-1-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_419507456",
+                    "ptpUserLabel": "SFD44-25-1-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_25.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c26c137f34e197290f59f_419507456_SFD44-25-1-OMD;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "龙南/CWR8-2-10-OMD--龙南/SFD44-25-1-OMD",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_34210560"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26c137f34e197290f59f_34210560_5e8c26c137f34e197290f59f_419507456",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_419507456"
+                    ]
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "CWR8-2-10-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_34210560",
+                    "ptpUserLabel": "CWR8-2-10-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_2.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "CWR8-2-10",
+                    "id": "5e8c26c137f34e197290f59f_34210560_CWR8-2-10-OMD;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "TAKEOVER-1586248113541",
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_34210560_CWR8-2-10-OMD;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26c137f34e197290f59f_2.10",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_34210048_CWR8-2-10-SIG;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "CWR8-2-10",
+                    "id": "5e8c26c137f34e197290f59f_34210560_CWR8-2-10-OMD;/frequency=9560.000-5e8c26c137f34e197290f59f_34210048_CWR8-2-10-SIG;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "CWR8-2-10-SIG;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_34210048",
+                    "ptpUserLabel": "CWR8-2-10-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_2.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "CWR8-2-10",
+                    "id": "5e8c26c137f34e197290f59f_34210048_CWR8-2-10-SIG;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "龙南/CWR8-2-10-SIG--龙南/AHPHG-2-2-SIG",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_34210048"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26c137f34e197290f59f_33685760_5e8c26c137f34e197290f59f_34210048",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_33685760"
+                    ]
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "AHPHG-2-2-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_33685760",
+                    "ptpUserLabel": "AHPHG-2-2-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_2.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-2-2",
+                    "id": "5e8c26c137f34e197290f59f_33685760_AHPHG-2-2-SIG;/oms=1"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26c137f34e197290f59f_33685760_AHPHG-2-2-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26c137f34e197290f59f_2.2",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_33686528_AHPHG-2-2-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-2-2",
+                    "id": "5e8c26c137f34e197290f59f_33685760_AHPHG-2-2-SIG;/oms=1-5e8c26c137f34e197290f59f_33686528_AHPHG-2-2-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26c137f34e197290f59f",
+                    "userLabel": "AHPHG-2-2-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26c137f34e197290f59f_33686528",
+                    "ptpUserLabel": "AHPHG-2-2-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "龙南",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26c137f34e197290f59f_2.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-2-2",
+                    "id": "5e8c26c137f34e197290f59f_33686528_AHPHG-2-2-LINE;/oms=1"
+                },
+                {
+                    "userLabel": "临空/AHPHG-2-2-LINE--龙南/AHPHG-2-2-LINE",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_33686528"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26a637f34e197290f59d_33686528_5e8c26c137f34e197290f59f_33686528",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26c137f34e197290f59f_33686528"
+                    ]
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "AHPHG-2-2-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26a637f34e197290f59d_33686528",
+                    "ptpUserLabel": "AHPHG-2-2-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26a637f34e197290f59d_2.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-2-2",
+                    "id": "5e8c26a637f34e197290f59d_33686528_AHPHG-2-2-LINE;/oms=1"
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_33685760_AHPHG-2-2-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26a637f34e197290f59d_2.2",
+                    "zEndNodes": [
+                        "5e8c26a637f34e197290f59d_33686528_AHPHG-2-2-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-2-2",
+                    "id": "5e8c26a637f34e197290f59d_33685760_AHPHG-2-2-SIG;/oms=1-5e8c26a637f34e197290f59d_33686528_AHPHG-2-2-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "AHPHG-2-2-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26a637f34e197290f59d_33685760",
+                    "ptpUserLabel": "AHPHG-2-2-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26a637f34e197290f59d_2.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-2-2",
+                    "id": "5e8c26a637f34e197290f59d_33685760_AHPHG-2-2-SIG;/oms=1"
+                },
+                {
+                    "userLabel": "临空/CWR8-2-10-SIG--临空/AHPHG-2-2-SIG",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_34210048"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26a637f34e197290f59d_33685760_5e8c26a637f34e197290f59d_34210048",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26a637f34e197290f59d_33685760"
+                    ]
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "CWR8-2-10-SIG;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26a637f34e197290f59d_34210048",
+                    "ptpUserLabel": "CWR8-2-10-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26a637f34e197290f59d_2.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "CWR8-2-10",
+                    "id": "5e8c26a637f34e197290f59d_34210048_CWR8-2-10-SIG;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "TAKEOVER-1586248113541",
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_34212608_CWR8-2-10-CLS8;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26a637f34e197290f59d_2.10",
+                    "zEndNodes": [
+                        "5e8c26a637f34e197290f59d_34210048_CWR8-2-10-SIG;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "CWR8-2-10",
+                    "id": "5e8c26a637f34e197290f59d_34212608_CWR8-2-10-CLS8;/frequency=9560.000-5e8c26a637f34e197290f59d_34210048_CWR8-2-10-SIG;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "CWR8-2-10-CLS8;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26a637f34e197290f59d_34212608",
+                    "ptpUserLabel": "CWR8-2-10-CLS8",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26a637f34e197290f59d_2.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "CWR8-2-10",
+                    "id": "5e8c26a637f34e197290f59d_34212608_CWR8-2-10-CLS8;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "临空/CWR8-2-10-CLS8--临空/CWR8-3-10-CLS7",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_34212608"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26a637f34e197290f59d_34212608_5e8c26a637f34e197290f59d_50989568",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26a637f34e197290f59d_50989568"
+                    ]
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "CWR8-3-10-CLS7;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26a637f34e197290f59d_50989568",
+                    "ptpUserLabel": "CWR8-3-10-CLS7",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26a637f34e197290f59d_3.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "CWR8-3-10",
+                    "id": "5e8c26a637f34e197290f59d_50989568_CWR8-3-10-CLS7;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "TAKEOVER-1586248113541",
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_50987264_CWR8-3-10-SIG;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26a637f34e197290f59d_3.10",
+                    "zEndNodes": [
+                        "5e8c26a637f34e197290f59d_50989568_CWR8-3-10-CLS7;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "CWR8-3-10",
+                    "id": "5e8c26a637f34e197290f59d_50987264_CWR8-3-10-SIG;/frequency=9560.000-5e8c26a637f34e197290f59d_50989568_CWR8-3-10-CLS7;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "CWR8-3-10-SIG;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26a637f34e197290f59d_50987264",
+                    "ptpUserLabel": "CWR8-3-10-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26a637f34e197290f59d_3.10",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "CWR8-3-10",
+                    "id": "5e8c26a637f34e197290f59d_50987264_CWR8-3-10-SIG;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "临空/CWR8-3-10-SIG--临空/AHPHG-3-2-SIG",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_50987264"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26a637f34e197290f59d_50462976_5e8c26a637f34e197290f59d_50987264",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c26a637f34e197290f59d_50462976"
+                    ]
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "AHPHG-3-2-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26a637f34e197290f59d_50462976",
+                    "ptpUserLabel": "AHPHG-3-2-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26a637f34e197290f59d_3.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-3-2",
+                    "id": "5e8c26a637f34e197290f59d_50462976_AHPHG-3-2-SIG;/oms=1"
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_50462976_AHPHG-3-2-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c26a637f34e197290f59d_3.2",
+                    "zEndNodes": [
+                        "5e8c26a637f34e197290f59d_50463744_AHPHG-3-2-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-3-2",
+                    "id": "5e8c26a637f34e197290f59d_50462976_AHPHG-3-2-SIG;/oms=1-5e8c26a637f34e197290f59d_50463744_AHPHG-3-2-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c26a637f34e197290f59d",
+                    "userLabel": "AHPHG-3-2-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c26a637f34e197290f59d_50463744",
+                    "ptpUserLabel": "AHPHG-3-2-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "临空",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c26a637f34e197290f59d_3.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-3-2",
+                    "id": "5e8c26a637f34e197290f59d_50463744_AHPHG-3-2-LINE;/oms=1"
+                },
+                {
+                    "userLabel": "临空/AHPHG-3-2-LINE--水城/AHPHG-1-3-LINE",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c26a637f34e197290f59d_50463744"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c26a637f34e197290f59d_50463744_5e8c274037f34e197290f726_16974848",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_16974848"
+                    ]
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": "AHPHG-1-3-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274037f34e197290f726_16974848",
+                    "ptpUserLabel": "AHPHG-1-3-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274037f34e197290f726_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c274037f34e197290f726_16974848_AHPHG-1-3-LINE;/oms=1"
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c274037f34e197290f726_16974080_AHPHG-1-3-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c274037f34e197290f726_1.3",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_16974848_AHPHG-1-3-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c274037f34e197290f726_16974080_AHPHG-1-3-SIG;/oms=1-5e8c274037f34e197290f726_16974848_AHPHG-1-3-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": "AHPHG-1-3-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274037f34e197290f726_16974080",
+                    "ptpUserLabel": "AHPHG-1-3-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274037f34e197290f726_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c274037f34e197290f726_16974080_AHPHG-1-3-SIG;/oms=1"
+                },
+                {
+                    "userLabel": "水城/SFD44-26-1-OMD--水城/AHPHG-1-3-SIG",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c274037f34e197290f726_436284672"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c274037f34e197290f726_16974080_5e8c274037f34e197290f726_436284672",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_16974080"
+                    ]
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": "SFD44-26-1-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274037f34e197290f726_436284672",
+                    "ptpUserLabel": "SFD44-26-1-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274037f34e197290f726_26.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c274037f34e197290f726_436284672_SFD44-26-1-OMD;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c274037f34e197290f726_436274432_SFD44-26-1-9560;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c274037f34e197290f726_26.1",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_436284672_SFD44-26-1-OMD;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c274037f34e197290f726_436274432_SFD44-26-1-9560;/frequency=9560.000-5e8c274037f34e197290f726_436284672_SFD44-26-1-OMD;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": "SFD44-26-1-9560;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274037f34e197290f726_436274432",
+                    "ptpUserLabel": "SFD44-26-1-9560",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274037f34e197290f726_26.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c274037f34e197290f726_436274432_SFD44-26-1-9560;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "水城/SFD44-26-1-9560--水城/SFD44-25-1-9560",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c274037f34e197290f726_436274432"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c274037f34e197290f726_419497216_5e8c274037f34e197290f726_436274432",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_419497216"
+                    ]
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": "SFD44-25-1-9560;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274037f34e197290f726_419497216",
+                    "ptpUserLabel": "SFD44-25-1-9560",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274037f34e197290f726_25.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c274037f34e197290f726_419497216_SFD44-25-1-9560;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c274037f34e197290f726_419497216_SFD44-25-1-9560;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c274037f34e197290f726_25.1",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_419507456_SFD44-25-1-OMD;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c274037f34e197290f726_419497216_SFD44-25-1-9560;/frequency=9560.000-5e8c274037f34e197290f726_419507456_SFD44-25-1-OMD;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": "SFD44-25-1-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274037f34e197290f726_419507456",
+                    "ptpUserLabel": "SFD44-25-1-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274037f34e197290f726_25.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c274037f34e197290f726_419507456_SFD44-25-1-OMD;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "水城/AHPHG-1-2-SIG--水城/SFD44-25-1-OMD",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c274037f34e197290f726_16908544"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c274037f34e197290f726_16908544_5e8c274037f34e197290f726_419507456",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_419507456"
+                    ]
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": "AHPHG-1-2-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274037f34e197290f726_16908544",
+                    "ptpUserLabel": "AHPHG-1-2-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274037f34e197290f726_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c274037f34e197290f726_16908544_AHPHG-1-2-SIG;/oms=1"
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c274037f34e197290f726_16908544_AHPHG-1-2-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c274037f34e197290f726_1.2",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_16909312_AHPHG-1-2-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c274037f34e197290f726_16908544_AHPHG-1-2-SIG;/oms=1-5e8c274037f34e197290f726_16909312_AHPHG-1-2-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c274037f34e197290f726",
+                    "userLabel": "AHPHG-1-2-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274037f34e197290f726_16909312",
+                    "ptpUserLabel": "AHPHG-1-2-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "水城",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274037f34e197290f726_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c274037f34e197290f726_16909312_AHPHG-1-2-LINE;/oms=1"
+                },
+                {
+                    "userLabel": "建国/AHPHG-1-3-LINE--水城/AHPHG-1-2-LINE",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_16974848"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c274037f34e197290f726_16909312_5e8c274e37f34e197290f749_16974848",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c274037f34e197290f726_16909312"
+                    ]
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": "AHPHG-1-3-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274e37f34e197290f749_16974848",
+                    "ptpUserLabel": "AHPHG-1-3-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274e37f34e197290f749_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c274e37f34e197290f749_16974848_AHPHG-1-3-LINE;/oms=1"
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_16974080_AHPHG-1-3-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c274e37f34e197290f749_1.3",
+                    "zEndNodes": [
+                        "5e8c274e37f34e197290f749_16974848_AHPHG-1-3-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c274e37f34e197290f749_16974080_AHPHG-1-3-SIG;/oms=1-5e8c274e37f34e197290f749_16974848_AHPHG-1-3-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": "AHPHG-1-3-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274e37f34e197290f749_16974080",
+                    "ptpUserLabel": "AHPHG-1-3-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274e37f34e197290f749_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c274e37f34e197290f749_16974080_AHPHG-1-3-SIG;/oms=1"
+                },
+                {
+                    "userLabel": "建国/SFD44-26-1-OMD--建国/AHPHG-1-3-SIG",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_436284672"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c274e37f34e197290f749_16974080_5e8c274e37f34e197290f749_436284672",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c274e37f34e197290f749_16974080"
+                    ]
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": "SFD44-26-1-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274e37f34e197290f749_436284672",
+                    "ptpUserLabel": "SFD44-26-1-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274e37f34e197290f749_26.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c274e37f34e197290f749_436284672_SFD44-26-1-OMD;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_436274432_SFD44-26-1-9560;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c274e37f34e197290f749_26.1",
+                    "zEndNodes": [
+                        "5e8c274e37f34e197290f749_436284672_SFD44-26-1-OMD;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c274e37f34e197290f749_436274432_SFD44-26-1-9560;/frequency=9560.000-5e8c274e37f34e197290f749_436284672_SFD44-26-1-OMD;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": "SFD44-26-1-9560;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274e37f34e197290f749_436274432",
+                    "ptpUserLabel": "SFD44-26-1-9560",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274e37f34e197290f749_26.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c274e37f34e197290f749_436274432_SFD44-26-1-9560;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "建国/SFD44-26-1-9560--建国/SFD44-25-1-9560",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_436274432"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c274e37f34e197290f749_419497216_5e8c274e37f34e197290f749_436274432",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c274e37f34e197290f749_419497216"
+                    ]
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": "SFD44-25-1-9560;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274e37f34e197290f749_419497216",
+                    "ptpUserLabel": "SFD44-25-1-9560",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274e37f34e197290f749_25.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c274e37f34e197290f749_419497216_SFD44-25-1-9560;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_419497216_SFD44-25-1-9560;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c274e37f34e197290f749_25.1",
+                    "zEndNodes": [
+                        "5e8c274e37f34e197290f749_419507456_SFD44-25-1-OMD;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c274e37f34e197290f749_419497216_SFD44-25-1-9560;/frequency=9560.000-5e8c274e37f34e197290f749_419507456_SFD44-25-1-OMD;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": "SFD44-25-1-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274e37f34e197290f749_419507456",
+                    "ptpUserLabel": "SFD44-25-1-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274e37f34e197290f749_25.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-25-1",
+                    "id": "5e8c274e37f34e197290f749_419507456_SFD44-25-1-OMD;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "建国/AHPHG-1-2-SIG--建国/SFD44-25-1-OMD",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_16908544"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c274e37f34e197290f749_16908544_5e8c274e37f34e197290f749_419507456",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c274e37f34e197290f749_419507456"
+                    ]
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": "AHPHG-1-2-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274e37f34e197290f749_16908544",
+                    "ptpUserLabel": "AHPHG-1-2-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274e37f34e197290f749_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c274e37f34e197290f749_16908544_AHPHG-1-2-SIG;/oms=1"
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_16908544_AHPHG-1-2-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c274e37f34e197290f749_1.2",
+                    "zEndNodes": [
+                        "5e8c274e37f34e197290f749_16909312_AHPHG-1-2-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c274e37f34e197290f749_16908544_AHPHG-1-2-SIG;/oms=1-5e8c274e37f34e197290f749_16909312_AHPHG-1-2-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c274e37f34e197290f749",
+                    "userLabel": "AHPHG-1-2-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c274e37f34e197290f749_16909312",
+                    "ptpUserLabel": "AHPHG-1-2-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "建国",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c274e37f34e197290f749_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-2",
+                    "id": "5e8c274e37f34e197290f749_16909312_AHPHG-1-2-LINE;/oms=1"
+                },
+                {
+                    "userLabel": "建国/AHPHG-1-2-LINE--沪闵/AHPHG-1-3-LINE",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c274e37f34e197290f749_16909312"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c274e37f34e197290f749_16909312_5e8c275f37f34e197290f76d_16974848",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_16974848"
+                    ]
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "AHPHG-1-3-LINE;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_16974848",
+                    "ptpUserLabel": "AHPHG-1-3-LINE",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c275f37f34e197290f76d_16974848_AHPHG-1-3-LINE;/oms=1"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_16974080_AHPHG-1-3-SIG;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.3",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_16974848_AHPHG-1-3-LINE;/oms=1"
+                    ],
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c275f37f34e197290f76d_16974080_AHPHG-1-3-SIG;/oms=1-5e8c275f37f34e197290f76d_16974848_AHPHG-1-3-LINE;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "AHPHG-1-3-SIG;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_16974080",
+                    "ptpUserLabel": "AHPHG-1-3-SIG",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "AHPHG-1-3",
+                    "id": "5e8c275f37f34e197290f76d_16974080_AHPHG-1-3-SIG;/oms=1"
+                },
+                {
+                    "userLabel": "沪闵/SFD44-26-1-OMD--沪闵/AHPHG-1-3-SIG",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_436284672"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c275f37f34e197290f76d_16974080_5e8c275f37f34e197290f76d_436284672",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_16974080"
+                    ]
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "SFD44-26-1-OMD;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_436284672",
+                    "ptpUserLabel": "SFD44-26-1-OMD",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_26.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c275f37f34e197290f76d_436284672_SFD44-26-1-OMD;/frequency=9560.000"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_436274432_SFD44-26-1-9560;/frequency=9560.000"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c275f37f34e197290f76d_26.1",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_436284672_SFD44-26-1-OMD;/frequency=9560.000"
+                    ],
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c275f37f34e197290f76d_436274432_SFD44-26-1-9560;/frequency=9560.000-5e8c275f37f34e197290f76d_436284672_SFD44-26-1-OMD;/frequency=9560.000",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "SFD44-26-1-9560;/frequency=9560.000",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_436274432",
+                    "ptpUserLabel": "SFD44-26-1-9560",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_26.1",
+                    "tpType": "CTP",
+                    "layerRate": "OCH",
+                    "equipmentUserLabel": "SFD44-26-1",
+                    "id": "5e8c275f37f34e197290f76d_436274432_SFD44-26-1-9560;/frequency=9560.000"
+                },
+                {
+                    "userLabel": "沪闵/SFD44-26-1-9560--沪闵/43STX4-1-15-L1",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_436274432"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5e8c275f37f34e197290f76d_17760512_5e8c275f37f34e197290f76d_436274432",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_17760512"
+                    ]
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "43STX4-1-15-L1;/otu3=1/odu3=1/odu2=3",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_17760512",
+                    "ptpUserLabel": "43STX4-1-15-L1",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.15",
+                    "tpType": "CTP",
+                    "layerRate": "ODU2",
+                    "equipmentUserLabel": "43STX4-1-15",
+                    "id": "5e8c275f37f34e197290f76d_17760512_43STX4-1-15-L1;/otu3=1/odu3=1/odu2=3"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5e8c275f37f34e197290f76d_17761280_43STX4-1-15-C3;/odu2=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.15",
+                    "zEndNodes": [
+                        "5e8c275f37f34e197290f76d_17760512_43STX4-1-15-L1;/otu3=1/odu3=1/odu2=3"
+                    ],
+                    "equipmentUserLabel": "43STX4-1-15",
+                    "id": "5e8c275f37f34e197290f76d_17761280_43STX4-1-15-C3;/odu2=1-5e8c275f37f34e197290f76d_17760512_43STX4-1-15-L1;/otu3=1/odu3=1/odu2=3",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5e8c275f37f34e197290f76d",
+                    "userLabel": "43STX4-1-15-C3;/odu2=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5e8c275f37f34e197290f76d_17761280",
+                    "ptpUserLabel": "43STX4-1-15-C3",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "沪闵",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5e8c275f37f34e197290f76d_1.15",
+                    "tpType": "CTP",
+                    "layerRate": "ODU2",
+                    "equipmentUserLabel": "43STX4-1-15",
+                    "id": "5e8c275f37f34e197290f76d_17761280_43STX4-1-15-C3;/odu2=1"
+                }
+            ]
+        },
+        "equipmentUserLabel": null,
+        "id": "PHONY_START_XC",
+        "direction": null
+    },
+    {
+        "neId": "5e8c275f37f34e197290f76d",
+        "userLabel": "PHONY_END_XC",
+        "isMergedRoute": true,
+        "protectionType": "SNCP",
+        "aEndNodes": [
+            "PHONY_END_TP"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "沪闵",
+        "pgData": null,
+        "type": "XC",
+        "params": null,
+        "equipmentId": null,
+        "zEndNodes": [
+            "5e8c275f37f34e197290f76d_17761280_43STX4-1-15-C3;/odu2=1",
+            "5e8c26c137f34e197290f59f_50594816_43STX4-3-4-C3;/odu2=1"
+        ],
+        "equipmentUserLabel": null,
+        "id": "PHONY_END_XC",
+        "direction": null
+    },
+    {
+        "neId": "5e8c275f37f34e197290f76d",
+        "userLabel": "PHONY_END_TP",
+        "isMergedRoute": null,
+        "ptpId": "PHONY_END_TP",
+        "ptpUserLabel": "PHONY_END_TP",
+        "isSeparatedRoute": null,
+        "neUserLabel": "沪闵",
+        "type": "TP",
+        "params": {
+            "rootAlarmState": null,
+            "alarmState": "CLEARED"
+        },
+        "equipmentId": null,
+        "tpType": "PTP",
+        "layerRate": null,
+        "equipmentUserLabel": null,
+        "id": "PHONY_END_TP"
+    }
+]
