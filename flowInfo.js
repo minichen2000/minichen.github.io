@@ -1,3 +1,863 @@
+const flowInfo_DB_omsp = [
+    {
+        "neId": "5edf786f65ce16513da6f4c5",
+        "userLabel": "MUX-1-41-MUX;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5edf786f65ce16513da6f4c5_MUX-1-41-MUX",
+        "ptpUserLabel": "MUX-1-41-MUX",
+        "isSeparatedRoute": null,
+        "neUserLabel": "DirectLink-164",
+        "type": "TP",
+        "params": {
+            "rootAlarmState": null,
+            "alarmState": "CLEARED"
+        },
+        "equipmentId": "5edf786f65ce16513da6f4c5_1.41",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "MUX-1-41",
+        "id": "5edf786f65ce16513da6f4c5_MUX-1-41-MUX_MUX-1-41-MUX;/oms=1"
+    },
+    {
+        "userLabel": "DirectLink-164/MUX-1-41-MUX--DirectLink-164/PORT-1-3-1-APSc",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5edf786f65ce16513da6f4c5_MUX-1-41-MUX"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5edf786f65ce16513da6f4c5_MUX-1-41-MUX_5edf786f65ce16513da6f4c5_PORT-1-3-1-APSc",
+        "type": "TL",
+        "params": {
+            "rootAlarmState": null,
+            "alarmState": "CLEARED"
+        },
+        "direction": "BI",
+        "zEndNodes": [
+            "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSc"
+        ]
+    },
+    {
+        "neId": "5edf786f65ce16513da6f4c5",
+        "userLabel": "PORT-1-3-1-APSc;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSc",
+        "ptpUserLabel": "PORT-1-3-1-APSc",
+        "isSeparatedRoute": null,
+        "neUserLabel": "DirectLink-164",
+        "type": "TP",
+        "params": {
+            "rootAlarmState": null,
+            "alarmState": "CLEARED"
+        },
+        "equipmentId": "5edf786f65ce16513da6f4c5_1.3",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "OLP-1-3",
+        "id": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSc_PORT-1-3-1-APSc;/oms=1"
+    },
+    {
+        "neId": "5edf786f65ce16513da6f4c5",
+        "userLabel": null,
+        "isMergedRoute": null,
+        "protectionType": "OPS",
+        "aEndNodes": [
+            "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSc_PORT-1-3-1-APSc;/oms=1"
+        ],
+        "isSeparatedRoute": true,
+        "neUserLabel": "DirectLink-164",
+        "pgData": {
+            "_id": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp_PORT-1-3-1-APSs",
+            "neId": "5edf786f65ce16513da6f4c5",
+            "type": "1+1",
+            "nmlId": "5edf781165ce16513da6f19f_MUX-1-41-MUX_MUX-1-41-MUX;/oms=1_5edf786f65ce16513da6f4c5_MUX-1-41-MUX_MUX-1-41-MUX;/oms=1",
+            "userLabel": "PG_1_OLP-1-3",
+            "nativeName": "PG_1_OLP-1-3",
+            "layerRates": [
+                "PHYSICAL",
+                "OMS"
+            ],
+            "direction": "UNI",
+            "reversionMode": "nonRevertive",
+            "wtrTime": "600000",
+            "holdOffTime": "5",
+            "tpIds": [
+                "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp",
+                "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSs"
+            ],
+            "switchData": {
+                "switchStatus": "NoRequest",
+                "tpStatus": [
+                    {
+                        "switchCmd": "noCmd",
+                        "txStatus": "unknown",
+                        "rxStatus": "active"
+                    },
+                    {
+                        "switchCmd": "noCmd",
+                        "txStatus": "unknown",
+                        "rxStatus": "standby"
+                    }
+                ]
+            },
+            "implementState": "IMPLEMENTED",
+            "netconf": {
+                "state": {
+                    "revertive": "false",
+                    "switch-mode": "auto",
+                    "wait-to-restore-time": "600000",
+                    "name": "APS-1-3-1",
+                    "hold-off-time": "5",
+                    "force-to-port": "NONE",
+                    "primary-switch-hysteresis": "1.0",
+                    "relative-switch-threshold": "0.0",
+                    "relative-switch-threshold-offset": "-2.0",
+                    "primary-switch-threshold": "-30.0",
+                    "secondary-switch-threshold": "-30.0",
+                    "active-path": "PRIMARY"
+                },
+                "ports": {
+                    "line-primary-out": {
+                        "optical-power": {
+                            "avg": "-16.2",
+                            "min": "-16.22",
+                            "max-time": "1591715015",
+                            "max": "-16.18",
+                            "interval": "401000000000",
+                            "min-time": "1591714804",
+                            "instant": "-16.21"
+                        }
+                    },
+                    "line-secondary-out": {
+                        "optical-power": {
+                            "avg": "-16.2",
+                            "min": "-16.22",
+                            "max-time": "1591715068",
+                            "max": "-16.18",
+                            "interval": "401000000000",
+                            "min-time": "1591714808",
+                            "instant": "-16.2"
+                        }
+                    },
+                    "common-in": {
+                        "optical-power": {
+                            "avg": "-12.9",
+                            "min": "-12.93",
+                            "max-time": "1591715046",
+                            "max": "-12.87",
+                            "interval": "402000000000",
+                            "min-time": "1591714801",
+                            "instant": "-12.9"
+                        },
+                        "enabled": "true"
+                    },
+                    "line-primary-in": {
+                        "optical-power": {
+                            "avg": "14.79",
+                            "min": "14.77",
+                            "max-time": "1591714813",
+                            "max": "14.81",
+                            "interval": "401000000000",
+                            "min-time": "1591714801",
+                            "instant": "14.79"
+                        },
+                        "enabled": "true"
+                    },
+                    "line-secondary-in": {
+                        "optical-power": {
+                            "avg": "-29.3",
+                            "min": "-55.0",
+                            "max-time": "1591715042",
+                            "max": "20.05",
+                            "interval": "401000000000",
+                            "min-time": "1591714801",
+                            "instant": "20.01"
+                        },
+                        "enabled": "true"
+                    },
+                    "common-output": {
+                        "optical-power": {
+                            "avg": "14.19",
+                            "min": "14.18",
+                            "max-time": "1591714821",
+                            "max": "14.2",
+                            "interval": "402000000000",
+                            "min-time": "1591714807",
+                            "instant": "14.19"
+                        }
+                    }
+                }
+            },
+            "params": {
+                "protectionMode": "OLP",
+                "neNumber": 10002,
+                "pgObjectType": "PTP",
+                "eqptNativeName": "OLP-1-3",
+                "groupId": "1",
+                "rowStatus": "active",
+                "eqptID": "5edf786f65ce16513da6f4c5_1.3",
+                "neNativeName": "BOB-DirectLink-164"
+            },
+            "usage": "IDLE",
+            "id": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp_PORT-1-3-1-APSs"
+        },
+        "type": "XC",
+        "params": null,
+        "equipmentId": "5edf786f65ce16513da6f4c5_1.3",
+        "zEndNodes": [
+            "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp_PORT-1-3-1-APSp;/oms=1",
+            "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSs_PORT-1-3-1-APSs;/oms=1"
+        ],
+        "separatedRouteElements": {
+            "Spare": [
+                {
+                    "neId": "5edf786f65ce16513da6f4c5",
+                    "userLabel": "PORT-1-3-1-APSs;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSs",
+                    "ptpUserLabel": "PORT-1-3-1-APSs",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-164",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf786f65ce16513da6f4c5_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OLP-1-3",
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSs_PORT-1-3-1-APSs;/oms=1"
+                },
+                {
+                    "userLabel": "DirectLink-164/PORT-1-3-1-APSs--DirectLink-164/PORT-1-4-C",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSs"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSs_5edf786f65ce16513da6f4c5_PORT-1-4-C",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-4-C"
+                    ]
+                },
+                {
+                    "neId": "5edf786f65ce16513da6f4c5",
+                    "userLabel": "PORT-1-4-C;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf786f65ce16513da6f4c5_PORT-1-4-C",
+                    "ptpUserLabel": "PORT-1-4-C",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-164",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf786f65ce16513da6f4c5_1.4",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OA-1-4",
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-4-C_PORT-1-4-C;/oms=1"
+                },
+                {
+                    "neId": "5edf786f65ce16513da6f4c5",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-4-L_PORT-1-4-L;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-164",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5edf786f65ce16513da6f4c5_1.4",
+                    "zEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-4-C_PORT-1-4-C;/oms=1"
+                    ],
+                    "equipmentUserLabel": "OA-1-4",
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-4-L_PORT-1-4-L;/oms=1-5edf786f65ce16513da6f4c5_PORT-1-4-C_PORT-1-4-C;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5edf786f65ce16513da6f4c5",
+                    "userLabel": "PORT-1-4-L;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf786f65ce16513da6f4c5_PORT-1-4-L",
+                    "ptpUserLabel": "PORT-1-4-L",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-164",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf786f65ce16513da6f4c5_1.4",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OA-1-4",
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-4-L_PORT-1-4-L;/oms=1"
+                },
+                {
+                    "userLabel": "DirectLink-164/PORT-1-4-L--DirectLink-165/PORT-1-4-L",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-4-L"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5edf781165ce16513da6f19f_PORT-1-4-L_5edf786f65ce16513da6f4c5_PORT-1-4-L",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": "CLEARED",
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-4-L"
+                    ]
+                },
+                {
+                    "neId": "5edf781165ce16513da6f19f",
+                    "userLabel": "PORT-1-4-L;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf781165ce16513da6f19f_PORT-1-4-L",
+                    "ptpUserLabel": "PORT-1-4-L",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-165",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf781165ce16513da6f19f_1.4",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OA-1-4",
+                    "id": "5edf781165ce16513da6f19f_PORT-1-4-L_PORT-1-4-L;/oms=1"
+                },
+                {
+                    "neId": "5edf781165ce16513da6f19f",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-4-L_PORT-1-4-L;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-165",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5edf781165ce16513da6f19f_1.4",
+                    "zEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-4-C_PORT-1-4-C;/oms=1"
+                    ],
+                    "equipmentUserLabel": "OA-1-4",
+                    "id": "5edf781165ce16513da6f19f_PORT-1-4-L_PORT-1-4-L;/oms=1-5edf781165ce16513da6f19f_PORT-1-4-C_PORT-1-4-C;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5edf781165ce16513da6f19f",
+                    "userLabel": "PORT-1-4-C;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf781165ce16513da6f19f_PORT-1-4-C",
+                    "ptpUserLabel": "PORT-1-4-C",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-165",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf781165ce16513da6f19f_1.4",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OA-1-4",
+                    "id": "5edf781165ce16513da6f19f_PORT-1-4-C_PORT-1-4-C;/oms=1"
+                },
+                {
+                    "userLabel": "DirectLink-165/PORT-1-3-1-APSs--DirectLink-165/PORT-1-4-C",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-3-1-APSs"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5edf781165ce16513da6f19f_PORT-1-3-1-APSs_5edf781165ce16513da6f19f_PORT-1-4-C",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-4-C"
+                    ]
+                },
+                {
+                    "neId": "5edf781165ce16513da6f19f",
+                    "userLabel": "PORT-1-3-1-APSs;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf781165ce16513da6f19f_PORT-1-3-1-APSs",
+                    "ptpUserLabel": "PORT-1-3-1-APSs",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-165",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf781165ce16513da6f19f_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OLP-1-3",
+                    "id": "5edf781165ce16513da6f19f_PORT-1-3-1-APSs_PORT-1-3-1-APSs;/oms=1"
+                }
+            ],
+            "Main": [
+                {
+                    "neId": "5edf786f65ce16513da6f4c5",
+                    "userLabel": "PORT-1-3-1-APSp;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp",
+                    "ptpUserLabel": "PORT-1-3-1-APSp",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-164",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf786f65ce16513da6f4c5_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OLP-1-3",
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp_PORT-1-3-1-APSp;/oms=1"
+                },
+                {
+                    "userLabel": "DirectLink-164/PORT-1-3-1-APSp--DirectLink-164/PORT-1-2-C",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-2-C_5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-2-C"
+                    ]
+                },
+                {
+                    "neId": "5edf786f65ce16513da6f4c5",
+                    "userLabel": "PORT-1-2-C;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf786f65ce16513da6f4c5_PORT-1-2-C",
+                    "ptpUserLabel": "PORT-1-2-C",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-164",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf786f65ce16513da6f4c5_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OA-1-2",
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-2-C_PORT-1-2-C;/oms=1"
+                },
+                {
+                    "neId": "5edf786f65ce16513da6f4c5",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-2-L_PORT-1-2-L;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-164",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5edf786f65ce16513da6f4c5_1.2",
+                    "zEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-2-C_PORT-1-2-C;/oms=1"
+                    ],
+                    "equipmentUserLabel": "OA-1-2",
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-2-L_PORT-1-2-L;/oms=1-5edf786f65ce16513da6f4c5_PORT-1-2-C_PORT-1-2-C;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5edf786f65ce16513da6f4c5",
+                    "userLabel": "PORT-1-2-L;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf786f65ce16513da6f4c5_PORT-1-2-L",
+                    "ptpUserLabel": "PORT-1-2-L",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-164",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf786f65ce16513da6f4c5_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OA-1-2",
+                    "id": "5edf786f65ce16513da6f4c5_PORT-1-2-L_PORT-1-2-L;/oms=1"
+                },
+                {
+                    "userLabel": "DirectLink-164/PORT-1-2-L--DirectLink-165/PORT-1-2-L",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5edf786f65ce16513da6f4c5_PORT-1-2-L"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5edf781165ce16513da6f19f_PORT-1-2-L_5edf786f65ce16513da6f4c5_PORT-1-2-L",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": "CLEARED",
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-2-L"
+                    ]
+                },
+                {
+                    "neId": "5edf781165ce16513da6f19f",
+                    "userLabel": "PORT-1-2-L;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf781165ce16513da6f19f_PORT-1-2-L",
+                    "ptpUserLabel": "PORT-1-2-L",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-165",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf781165ce16513da6f19f_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OA-1-2",
+                    "id": "5edf781165ce16513da6f19f_PORT-1-2-L_PORT-1-2-L;/oms=1"
+                },
+                {
+                    "neId": "5edf781165ce16513da6f19f",
+                    "userLabel": null,
+                    "isMergedRoute": null,
+                    "protectionType": "SIMPLE",
+                    "aEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-2-L_PORT-1-2-L;/oms=1"
+                    ],
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-165",
+                    "pgData": null,
+                    "type": "XC",
+                    "params": null,
+                    "equipmentId": "5edf781165ce16513da6f19f_1.2",
+                    "zEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-2-C_PORT-1-2-C;/oms=1"
+                    ],
+                    "equipmentUserLabel": "OA-1-2",
+                    "id": "5edf781165ce16513da6f19f_PORT-1-2-L_PORT-1-2-L;/oms=1-5edf781165ce16513da6f19f_PORT-1-2-C_PORT-1-2-C;/oms=1",
+                    "direction": "BI"
+                },
+                {
+                    "neId": "5edf781165ce16513da6f19f",
+                    "userLabel": "PORT-1-2-C;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf781165ce16513da6f19f_PORT-1-2-C",
+                    "ptpUserLabel": "PORT-1-2-C",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-165",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf781165ce16513da6f19f_1.2",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OA-1-2",
+                    "id": "5edf781165ce16513da6f19f_PORT-1-2-C_PORT-1-2-C;/oms=1"
+                },
+                {
+                    "userLabel": "DirectLink-165/PORT-1-3-1-APSp--DirectLink-165/PORT-1-2-C",
+                    "isMergedRoute": null,
+                    "protectionType": "NORMAL",
+                    "aEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-3-1-APSp"
+                    ],
+                    "isSeparatedRoute": null,
+                    "id": "5edf781165ce16513da6f19f_PORT-1-2-C_5edf781165ce16513da6f19f_PORT-1-3-1-APSp",
+                    "type": "TL",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "direction": "BI",
+                    "zEndNodes": [
+                        "5edf781165ce16513da6f19f_PORT-1-2-C"
+                    ]
+                },
+                {
+                    "neId": "5edf781165ce16513da6f19f",
+                    "userLabel": "PORT-1-3-1-APSp;/oms=1",
+                    "isMergedRoute": null,
+                    "ptpId": "5edf781165ce16513da6f19f_PORT-1-3-1-APSp",
+                    "ptpUserLabel": "PORT-1-3-1-APSp",
+                    "isSeparatedRoute": null,
+                    "neUserLabel": "DirectLink-165",
+                    "type": "TP",
+                    "params": {
+                        "rootAlarmState": null,
+                        "alarmState": "CLEARED"
+                    },
+                    "equipmentId": "5edf781165ce16513da6f19f_1.3",
+                    "tpType": "CTP",
+                    "layerRate": "OMS",
+                    "equipmentUserLabel": "OLP-1-3",
+                    "id": "5edf781165ce16513da6f19f_PORT-1-3-1-APSp_PORT-1-3-1-APSp;/oms=1"
+                }
+            ]
+        },
+        "equipmentUserLabel": "OLP-1-3",
+        "id": "5edf786f65ce16513da6f4c5_PORT-1-3-1-APSc_PORT-1-3-1-APSc;/oms=1-5edf786f65ce16513da6f4c5_PORT-1-3-1-APSp_PORT-1-3-1-APSp;/oms=1-5edf786f65ce16513da6f4c5_PORT-1-3-1-APSs_PORT-1-3-1-APSs;/oms=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5edf781165ce16513da6f19f",
+        "userLabel": null,
+        "isMergedRoute": true,
+        "protectionType": "OPS",
+        "aEndNodes": [
+            "5edf781165ce16513da6f19f_PORT-1-3-1-APSc_PORT-1-3-1-APSc;/oms=1"
+        ],
+        "isSeparatedRoute": null,
+        "neUserLabel": "DirectLink-165",
+        "pgData": {
+            "_id": "5edf781165ce16513da6f19f_PORT-1-3-1-APSp_PORT-1-3-1-APSs",
+            "neId": "5edf781165ce16513da6f19f",
+            "type": "1+1",
+            "nmlId": "5edf781165ce16513da6f19f_MUX-1-41-MUX_MUX-1-41-MUX;/oms=1_5edf786f65ce16513da6f4c5_MUX-1-41-MUX_MUX-1-41-MUX;/oms=1",
+            "userLabel": "PG_1_OLP-1-3",
+            "nativeName": "PG_1_OLP-1-3",
+            "layerRates": [
+                "PHYSICAL",
+                "OMS"
+            ],
+            "direction": "BI",
+            "reversionMode": "revertive",
+            "wtrTime": "30000",
+            "holdOffTime": "0",
+            "tpIds": [
+                "5edf781165ce16513da6f19f_PORT-1-3-1-APSp",
+                "5edf781165ce16513da6f19f_PORT-1-3-1-APSs"
+            ],
+            "switchData": {
+                "switchStatus": "NoRequest",
+                "tpStatus": [
+                    {
+                        "switchCmd": "noCmd",
+                        "txStatus": "unknown",
+                        "rxStatus": "active"
+                    },
+                    {
+                        "switchCmd": "noCmd",
+                        "txStatus": "unknown",
+                        "rxStatus": "standby"
+                    }
+                ]
+            },
+            "implementState": "IMPLEMENTED",
+            "netconf": {
+                "state": {
+                    "revertive": "true",
+                    "switch-mode": "force",
+                    "wait-to-restore-time": "30000",
+                    "name": "APS-1-3-1",
+                    "hold-off-time": "0",
+                    "force-to-port": "PRIMARY",
+                    "primary-switch-hysteresis": "0.0",
+                    "relative-switch-threshold": "0.0",
+                    "relative-switch-threshold-offset": "1.0",
+                    "primary-switch-threshold": "17.0",
+                    "secondary-switch-threshold": "0.0",
+                    "active-path": "PRIMARY"
+                },
+                "ports": {
+                    "line-primary-out": {
+                        "optical-power": {
+                            "avg": "-15.99",
+                            "min": "-16.01",
+                            "max-time": "1591714818",
+                            "max": "-15.97",
+                            "interval": "401000000000",
+                            "min-time": "1591715144",
+                            "instant": "-15.99"
+                        }
+                    },
+                    "line-secondary-out": {
+                        "optical-power": {
+                            "avg": "-15.99",
+                            "min": "-16.0",
+                            "max-time": "1591714810",
+                            "max": "-15.97",
+                            "interval": "401000000000",
+                            "min-time": "1591714808",
+                            "instant": "-15.98"
+                        }
+                    },
+                    "common-in": {
+                        "optical-power": {
+                            "avg": "-12.69",
+                            "min": "-12.71",
+                            "max-time": "1591714803",
+                            "max": "-12.66",
+                            "interval": "401000000000",
+                            "min-time": "1591714802",
+                            "instant": "-12.69"
+                        },
+                        "enabled": "true"
+                    },
+                    "line-primary-in": {
+                        "optical-power": {
+                            "avg": "10.28",
+                            "min": "10.26",
+                            "max-time": "1591714817",
+                            "max": "10.3",
+                            "interval": "401000000000",
+                            "min-time": "1591714801",
+                            "instant": "10.28"
+                        },
+                        "enabled": "true"
+                    },
+                    "line-secondary-in": {
+                        "optical-power": {
+                            "avg": "8.8",
+                            "min": "8.76",
+                            "max-time": "1591714801",
+                            "max": "8.83",
+                            "interval": "401000000000",
+                            "min-time": "1591715010",
+                            "instant": "8.79"
+                        },
+                        "enabled": "true"
+                    },
+                    "common-output": {
+                        "optical-power": {
+                            "avg": "9.16",
+                            "min": "8.17",
+                            "max-time": "1591714814",
+                            "max": "9.69",
+                            "interval": "401000000000",
+                            "min-time": "1591715002",
+                            "instant": "9.68"
+                        }
+                    }
+                }
+            },
+            "params": {
+                "protectionMode": "OLP",
+                "neNumber": 10001,
+                "pgObjectType": "PTP",
+                "eqptNativeName": "OLP-1-3",
+                "groupId": "1",
+                "rowStatus": "active",
+                "eqptID": "5edf781165ce16513da6f19f_1.3",
+                "neNativeName": "OTC-DirectLink21-DirectLink-165"
+            },
+            "usage": "IDLE",
+            "id": "5edf781165ce16513da6f19f_PORT-1-3-1-APSp_PORT-1-3-1-APSs"
+        },
+        "type": "XC",
+        "params": null,
+        "equipmentId": "5edf781165ce16513da6f19f_1.3",
+        "zEndNodes": [
+            "5edf781165ce16513da6f19f_PORT-1-3-1-APSp_PORT-1-3-1-APSp;/oms=1",
+            "5edf781165ce16513da6f19f_PORT-1-3-1-APSs_PORT-1-3-1-APSs;/oms=1"
+        ],
+        "equipmentUserLabel": "OLP-1-3",
+        "id": "5edf781165ce16513da6f19f_PORT-1-3-1-APSc_PORT-1-3-1-APSc;/oms=1-5edf781165ce16513da6f19f_PORT-1-3-1-APSp_PORT-1-3-1-APSp;/oms=1-5edf781165ce16513da6f19f_PORT-1-3-1-APSs_PORT-1-3-1-APSs;/oms=1",
+        "direction": "BI"
+    },
+    {
+        "neId": "5edf781165ce16513da6f19f",
+        "userLabel": "PORT-1-3-1-APSc;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5edf781165ce16513da6f19f_PORT-1-3-1-APSc",
+        "ptpUserLabel": "PORT-1-3-1-APSc",
+        "isSeparatedRoute": null,
+        "neUserLabel": "DirectLink-165",
+        "type": "TP",
+        "params": {
+            "rootAlarmState": null,
+            "alarmState": "CLEARED"
+        },
+        "equipmentId": "5edf781165ce16513da6f19f_1.3",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "OLP-1-3",
+        "id": "5edf781165ce16513da6f19f_PORT-1-3-1-APSc_PORT-1-3-1-APSc;/oms=1"
+    },
+    {
+        "userLabel": "DirectLink-165/MUX-1-41-MUX--DirectLink-165/PORT-1-3-1-APSc",
+        "isMergedRoute": null,
+        "protectionType": "NORMAL",
+        "aEndNodes": [
+            "5edf781165ce16513da6f19f_MUX-1-41-MUX"
+        ],
+        "isSeparatedRoute": null,
+        "id": "5edf781165ce16513da6f19f_MUX-1-41-MUX_5edf781165ce16513da6f19f_PORT-1-3-1-APSc",
+        "type": "TL",
+        "params": {
+            "rootAlarmState": null,
+            "alarmState": "CLEARED"
+        },
+        "direction": "BI",
+        "zEndNodes": [
+            "5edf781165ce16513da6f19f_PORT-1-3-1-APSc"
+        ]
+    },
+    {
+        "neId": "5edf781165ce16513da6f19f",
+        "userLabel": "MUX-1-41-MUX;/oms=1",
+        "isMergedRoute": null,
+        "ptpId": "5edf781165ce16513da6f19f_MUX-1-41-MUX",
+        "ptpUserLabel": "MUX-1-41-MUX",
+        "isSeparatedRoute": null,
+        "neUserLabel": "DirectLink-165",
+        "type": "TP",
+        "params": {
+            "rootAlarmState": null,
+            "alarmState": "CLEARED"
+        },
+        "equipmentId": "5edf781165ce16513da6f19f_1.41",
+        "tpType": "CTP",
+        "layerRate": "OMS",
+        "equipmentUserLabel": "MUX-1-41",
+        "id": "5edf781165ce16513da6f19f_MUX-1-41-MUX_MUX-1-41-MUX;/oms=1"
+    }
+];
 const flowInfo_contac_112SDX = [
     {
         "neId":"5c4812adc245544f4eac0cd5",
